@@ -16,16 +16,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d40e650-2cf3-45b3-8e40-d0640ed9ff15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AppCong/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppCong/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppCong/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppCong/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppCong/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppCong/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppCong/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppCong/settings.gradle.kts" afterDir="false" />
-    </list>
+    <list default="true" id="8d40e650-2cf3-45b3-8e40-d0640ed9ff15" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
