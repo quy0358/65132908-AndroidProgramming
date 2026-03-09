@@ -1,6 +1,8 @@
 package tiil.edu.appcong;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,16 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+    public void XuLyCong(View view){
+        EditText edtA = findViewById(R.id.edtA);
+        EditText edtB = findViewById(R.id.edtB);
+        EditText edtKQ = findViewById(R.id.edtKQ);
+        String a = edtA.getText().toString();
+        String b = edtB.getText().toString();
+        int soA = Integer.parseInt(a);
+        int soB = Integer.parseInt(b);
+        int tong = soA + soB;
+        edtKQ.setText(String.valueOf(tong));
+    }
+
 }
