@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BaiTH7_ListView1</string>
+    <string name="title_vat_lieu">DS vật liệu</string>
+    <string name="title_mon_an">Danh mục món ăn</string>
+</resources>
