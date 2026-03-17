@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BaiLamThem2_ListView</string>
+    <string name="title_san_pham">DS Sản Phẩm</string>
+    <string name="title_nha_cung_cap">DS Nhà Cung Cấp</string>
+    <string name="hint_search">Tìm kiếm...</string>
+    <string name="hint_add_san_pham">Nhập tên sản phẩm</string>
+    <string name="hint_add_nha_cung_cap">Nhập tên nhà cung cấp</string>
+    <string name="btn_add">Thêm</string>
+</resources>
