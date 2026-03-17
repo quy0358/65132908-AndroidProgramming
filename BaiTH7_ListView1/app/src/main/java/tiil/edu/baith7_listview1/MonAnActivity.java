@@ -1,7 +1,6 @@
 package tiil.edu.baith7_listview1;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -36,7 +35,7 @@ public class MonAnActivity extends AppCompatActivity {
                 "...."
         };
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dsMonAn);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.list_item_custom, R.id.tvItem, dsMonAn);
         listView.setAdapter(adapter);
     }
 }
