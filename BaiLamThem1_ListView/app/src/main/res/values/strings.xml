@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BaiLamThem1_ListView</string>
+    <string name="title_sinh_vien">DS Sinh Viên</string>
+    <string name="title_mon_hoc">DS Môn Học</string>
+</resources>
