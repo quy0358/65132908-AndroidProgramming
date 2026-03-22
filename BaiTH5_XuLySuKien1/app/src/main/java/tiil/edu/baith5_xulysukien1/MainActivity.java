@@ -79,8 +79,8 @@ public class MainActivity extends AppCompatActivity {
         String so2 = editTextSo2.getText().toString();
         float num1 = Float.parseFloat(so1);
         float num2 = Float.parseFloat(so2);
-        float tong = num1 - num2;
-        String chuoiKQ = String.valueOf(tong);
+        float hieu = num1 - num2;
+        String chuoiKQ = String.valueOf(hieu);
         editTextKQ.setText(chuoiKQ);
     }
 
@@ -89,8 +89,8 @@ public class MainActivity extends AppCompatActivity {
         String so2 = editTextSo2.getText().toString();
         float num1 = Float.parseFloat(so1);
         float num2 = Float.parseFloat(so2);
-        float tong = num1 * num2;
-        String chuoiKQ = String.valueOf(tong);
+        float tich = num1 * num2;
+        String chuoiKQ = String.valueOf(tich);
         editTextKQ.setText(chuoiKQ);
     }
 
@@ -103,8 +103,8 @@ public class MainActivity extends AppCompatActivity {
             editTextKQ.setText("Lỗi: không thể chia cho 0");
             return;
         }
-        float tong = num1 / num2;
-        String chuoiKQ = String.valueOf(tong);
+        float thuong = num1 / num2;
+        String chuoiKQ = String.valueOf(thuong);
         editTextKQ.setText(chuoiKQ);
     }
 }
