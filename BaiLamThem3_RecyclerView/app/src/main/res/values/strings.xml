@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BaiLamThem3_RecyclerView</string>
+    <string name="toolbar_title">Tin Thế Giới</string>
+    <string name="btn_all">Tất cả</string>
+    <string name="btn_favorites">⭐ Yêu thích</string>
+    <string name="search_hint">Tìm kiếm tin tức…</string>
+    <string name="news_image_desc">Ảnh tin tức</string>
+    <string name="bookmark_desc">Lưu tin</string>
+</resources>
