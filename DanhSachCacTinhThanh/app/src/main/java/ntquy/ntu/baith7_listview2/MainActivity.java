@@ -1,8 +1,11 @@
 package ntquy.ntu.baith7_listview2;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -60,5 +63,15 @@ public class MainActivity extends AppCompatActivity {
                 android.R.layout.simple_list_item_1, danhSachTinhThanh);
 
         lvTinhThanh.setAdapter(adapter);
+
+        // Xử lý sự kiện khi người dùng click vào một tỉnh thành
+        lvTinhThanh.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String tinhThanh = danhSachTinhThanh.get(position);
+                Toast.makeText(MainActivity.this,
+                        "Bạn đã chọn: " + tinhThanh, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
