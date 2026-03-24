@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with ActionBar -->
+    <style name="Base.Theme.BaiTH7_ListView2" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <style name="Theme.BaiTH7_ListView2" parent="Base.Theme.BaiTH7_ListView2" />
+</resources>

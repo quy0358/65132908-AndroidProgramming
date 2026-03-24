@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.BaiTH5_XuLySuKien1</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="438eb46c-e323-4f8d-8945-593ea62a7080" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/androidTest/java/tiil/edu/bailamthem1_listview/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/java/tiil/edu/bailamthem1_listview/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/java/tiil/edu/bailamthem1_listview/MonHocActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/java/tiil/edu/bailamthem1_listview/SinhVienActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/drawable/ic_book.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/drawable/ic_student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/drawable/list_item_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/layout/activity_mon_hoc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/layout/activity_sinh_vien.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/layout/list_item_custom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/app/src/test/java/tiil/edu/bailamthem1_listview/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/gradle/gradle-daemon-jvm.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem1_ListView/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/androidTest/java/tiil/edu/bailamthem2_listview/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/java/tiil/edu/bailamthem2_listview/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/java/tiil/edu/bailamthem2_listview/NhaCungCapActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/java/tiil/edu/bailamthem2_listview/SanPhamActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/drawable/ic_product.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/drawable/ic_supplier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/drawable/list_item_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/layout/activity_nha_cung_cap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/layout/activity_san_pham.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/layout/list_item_custom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/app/src/test/java/tiil/edu/bailamthem2_listview/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/gradle/gradle-daemon-jvm.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem2_ListView/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/androidTest/java/ntquy/ntu/bailamthem3_recyclerview/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/java/ntquy/ntu/bailamthem3_recyclerview/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/java/ntquy/ntu/bailamthem3_recyclerview/NewsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/java/ntquy/ntu/bailamthem3_recyclerview/RssItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/java/ntquy/ntu/bailamthem3_recyclerview/RssParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/drawable/ic_bookmark.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/drawable/ic_bookmark_filled.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/layout/item_news.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/app/src/test/java/ntquy/ntu/bailamthem3_recyclerview/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/gradle/gradle-daemon-jvm.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiLamThem3_RecyclerView/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/tiil/edu/baith5_xulysukien1/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tiil/edu/baith5_xulysukien1/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/tiil/edu/baith5_xulysukien1/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/gradle-daemon-jvm.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.idea/deviceManager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/androidTest/java/tiil/edu/appcong/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/java/tiil/edu/appcong/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/app/src/test/java/tiil/edu/appcong/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/gradle/gradle-daemon-jvm.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH6_XuLySuKien_TinhTong/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/androidTest/java/tiil/edu/baith7_listview1/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/java/tiil/edu/baith7_listview1/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/java/tiil/edu/baith7_listview1/MonAnActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/java/tiil/edu/baith7_listview1/VatLieuActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/drawable/ic_chef.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/drawable/ic_worker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/drawable/list_item_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/layout/activity_mon_an.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/layout/activity_vat_lieu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/layout/list_item_custom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/app/src/test/java/tiil/edu/baith7_listview1/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/gradle/gradle-daemon-jvm.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH7_ListView1/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.idea/deviceManager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/androidTest/java/java/ntquy/ntu/BaiTH8_RecyclerView/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/java/java/ntquy/ntu/BaiTH8_RecyclerView/DetailActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/java/java/ntquy/ntu/BaiTH8_RecyclerView/LandScape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/java/java/ntquy/ntu/BaiTH8_RecyclerView/LandScapeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/java/java/ntquy/ntu/BaiTH8_RecyclerView/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/drawable/colosseum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/drawable/effel_tower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/drawable/flag_tower_hanoi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/drawable/great_wall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/drawable/ha_long_bay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/drawable/sydney_opera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/drawable/taj_mahal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/layout/activity_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/layout/item_landscape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/app/src/test/java/java/ntquy/ntu/BaiTH8_RecyclerView/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/gradle/gradle-daemon-jvm.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTH8_RecyclerView/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloAndroid/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloAndroid/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloAndroid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloAndroid/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloAndroid/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloAndroid/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloAndroid/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloAndroid/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[LocalEmulator::path=C:\Users\nguye\.android\avd\Medium_Phone.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BaiTH5_XuLySuKien1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;quy0358&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/quy0358/65132908-AndroidProgramming.git&quot;,
+    &quot;accountId&quot;: &quot;67da3ea5-4675-43ab-a383-a83f64d9d1b8&quot;
+  }
+}</component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\nguye\.gradle\wrapper\dists\gradle-9.3.1-bin\23ovyewtku6u96viwx3xl3oks\gradle-9.3.1" javaHome="E:\App\android studio\jbr" gradleVersion="9.3.1" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3B1gXC34Gwb1brtz5gLSlfucjbI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/65132908-AndroidProgramming/BaiTH5_XuLySuKien1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;templates.modelproviders.configurable&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="BaiTH5_XuLySuKien1.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="438eb46c-e323-4f8d-8945-593ea62a7080" name="Changes" comment="" />
+      <created>1773662027696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773662027696</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="tiil.edu.baith5_xulysukien1">
+          <value>
+            <CheckInfo lastCheckTimestamp="1774348955547" />
+          </value>
+        </entry>
+        <entry key="tiil.edu.baith5_xulysukien1.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1774348955547" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
