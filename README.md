@@ -10,19 +10,19 @@
 - [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
 - [Cấu trúc dự án](#-cấu-trúc-dự-án)
 - [Danh sách ứng dụng](#-danh-sách-ứng-dụng)
-  - [1. VN_Express_Rss — Đọc Tin RSS VnExpress](#1-vn_express_rss--đọc-tin-rss-vnexpress)
-  - [2. DanhSachCacCanhQuan — RecyclerView & CardView](#2-danhsachcaccanhquan--recyclerview--cardview)
-  - [3. DSSanPhamVaNhaCungCap — ListView Sản Phẩm & Nhà Cung Cấp](#3-dssanphamvanhacungcap--listview-sản-phẩm--nhà-cung-cấp)
-  - [4. DSSinhVienVaMonHoc — ListView Sinh Viên & Môn Học](#4-dssinhvienvamonhoc--listview-sinh-viên--môn-học)
-  - [5. AppMonAn — Custom ListView Món Ăn](#5-appmonan--custom-listview-món-ăn)
-  - [6. DanhSachVatLieuVaDanhSachMonAn — ListView Vật Liệu & Món Ăn](#6-danhsachvatlieuvanhdanhsachmonan--listview-vật-liệu--món-ăn)
+  - [13. VN_Express_Rss — Đọc Tin RSS VnExpress](#13-vn_express_rss--đọc-tin-rss-vnexpress)
+  - [12. DanhSachCacCanhQuan — RecyclerView & CardView](#12-danhsachcaccanhquan--recyclerview--cardview)
+  - [11. DSSanPhamVaNhaCungCap — ListView Sản Phẩm & Nhà Cung Cấp](#11-dssanphamvanhacungcap--listview-sản-phẩm--nhà-cung-cấp)
+  - [10. DSSinhVienVaMonHoc — ListView Sinh Viên & Môn Học](#10-dssinhvienvamonhoc--listview-sinh-viên--môn-học)
+  - [9. AppMonAn — Custom ListView Món Ăn](#9-appmonan--custom-listview-món-ăn)
+  - [8. DanhSachVatLieuVaDanhSachMonAn — ListView Vật Liệu & Món Ăn](#8-danhsachvatlieuvanhdanhsachmonan--listview-vật-liệu--món-ăn)
   - [7. DanhSachCacTinhThanh — ListView Tỉnh Thành](#7-danhsachcactinhthanh--listview-tỉnh-thành)
-  - [8. AppCongTruNhanChia — Cộng Trừ Nhân Chia](#8-appcongtruhnanchia--cộng-trừ-nhân-chia)
-  - [9. BaiTH4_2 — Máy Tính Bỏ Túi](#9-baith4_2--máy-tính-bỏ-túi)
-  - [10. BaiTH4_1 — LinearLayout & Button](#10-baith4_1--linearlayout--button)
-  - [11. AppCong — Tính Tổng (onClick XML)](#11-appcong--tính-tổng-onclick-xml)
-  - [12. AppTinhTong — Tính Tổng Hai Số](#12-apptinhtong--tính-tổng-hai-số)
-  - [13. HelloAndroid](#13-helloandroid)
+  - [6. AppCongTruNhanChia — Cộng Trừ Nhân Chia](#6-appcongtruhnanchia--cộng-trừ-nhân-chia)
+  - [5. BaiTH4_2 — Máy Tính Bỏ Túi](#5-baith4_2--máy-tính-bỏ-túi)
+  - [4. BaiTH4_1 — LinearLayout & Button](#4-baith4_1--linearlayout--button)
+  - [3. AppCong — Tính Tổng (onClick XML)](#3-appcong--tính-tổng-onclick-xml)
+  - [2. AppTinhTong — Tính Tổng Hai Số](#2-apptinhtong--tính-tổng-hai-số)
+  - [1. HelloAndroid](#1-helloandroid)
 - [Yêu cầu hệ thống](#-yêu-cầu-hệ-thống)
 - [Hướng dẫn cài đặt và chạy](#-hướng-dẫn-cài-đặt-và-chạy)
 - [Tác giả](#-tác-giả)
@@ -53,19 +53,19 @@
 
 ```
 65132908-AndroidProgramming/
-├── VN_Express_Rss/                        # Bài 1: Đọc Tin RSS VnExpress
-├── DanhSachCacCanhQuan/                   # Bài 2: RecyclerView & CardView Cảnh Quan
-├── DSSanPhamVaNhaCungCap/                 # Bài 3: ListView Sản Phẩm & Nhà Cung Cấp
-├── DSSinhVienVaMonHoc/                    # Bài 4: ListView Sinh Viên & Môn Học
-├── AppMonAn/                              # Bài 5: Custom ListView Món Ăn
-├── DanhSachVatLieuVaDanhSachMonAn/        # Bài 6: ListView Vật Liệu & Món Ăn
+├── VN_Express_Rss/                        # Bài 13: Đọc Tin RSS VnExpress
+├── DanhSachCacCanhQuan/                   # Bài 12: RecyclerView & CardView Cảnh Quan
+├── DSSanPhamVaNhaCungCap/                 # Bài 11: ListView Sản Phẩm & Nhà Cung Cấp
+├── DSSinhVienVaMonHoc/                    # Bài 10: ListView Sinh Viên & Môn Học
+├── AppMonAn/                              # Bài 9: Custom ListView Món Ăn
+├── DanhSachVatLieuVaDanhSachMonAn/        # Bài 8: ListView Vật Liệu & Món Ăn
 ├── DanhSachCacTinhThanh/                  # Bài 7: ListView Tỉnh Thành
-├── AppCongTruNhanChia/                    # Bài 8: Cộng Trừ Nhân Chia
-├── BaiTH4_2LinearLayOut_Tong2So/          # Bài 9: Máy Tính Bỏ Túi
-├── BaiTH4_1LinearLayOut_Tong2So/          # Bài 10: LinearLayout & Button
-├── AppCong/                               # Bài 11: Tính Tổng (onClick XML)
-├── AppTinhTong/                           # Bài 12: Tính Tổng Hai Số
-├── HelloAndroid/                          # Bài 13: Ứng dụng Hello World
+├── AppCongTruNhanChia/                    # Bài 6: Cộng Trừ Nhân Chia
+├── BaiTH4_2LinearLayOut_Tong2So/          # Bài 5: Máy Tính Bỏ Túi
+├── BaiTH4_1LinearLayOut_Tong2So/          # Bài 4: LinearLayout & Button
+├── AppCong/                               # Bài 3: Tính Tổng (onClick XML)
+├── AppTinhTong/                           # Bài 2: Tính Tổng Hai Số
+├── HelloAndroid/                          # Bài 1: Ứng dụng Hello World
 ├── Images/                                # Thư mục chứa ảnh minh hoạ
 └── README.md
 ```
@@ -74,7 +74,7 @@
 
 ## 📦 Danh sách ứng dụng
 
-### 1. VN_Express_Rss — Đọc Tin RSS VnExpress
+### 13. VN_Express_Rss — Đọc Tin RSS VnExpress
 
 > 🔵 Ứng dụng đọc tin RSS — Tích hợp mạng, tìm kiếm, bookmark và làm mới dữ liệu.
 
@@ -114,7 +114,7 @@
 
 ---
 
-### 2. DanhSachCacCanhQuan — RecyclerView & CardView
+### 12. DanhSachCacCanhQuan — RecyclerView & CardView
 
 > 🟣 RecyclerView + CardView — Hiển thị danh sách cảnh quan thế giới với hình ảnh.
 
@@ -142,7 +142,7 @@
 
 ---
 
-### 3. DSSanPhamVaNhaCungCap — ListView Sản Phẩm & Nhà Cung Cấp
+### 11. DSSanPhamVaNhaCungCap — ListView Sản Phẩm & Nhà Cung Cấp
 
 > 🔴 Ứng dụng quản lý Sản Phẩm & Nhà Cung Cấp với tìm kiếm, thêm mới và lưu trữ dữ liệu.
 
@@ -175,7 +175,7 @@
 
 ---
 
-### 4. DSSinhVienVaMonHoc — ListView Sinh Viên & Môn Học
+### 10. DSSinhVienVaMonHoc — ListView Sinh Viên & Môn Học
 
 > 🟢 Ứng dụng quản lý danh sách Sinh Viên và Môn Học.
 
@@ -204,7 +204,7 @@
 
 ---
 
-### 5. AppMonAn — Custom ListView Món Ăn
+### 9. AppMonAn — Custom ListView Món Ăn
 
 > 🟢 Custom ListView — Thực hành Custom Adapter với hình ảnh và dữ liệu phong phú.
 
@@ -232,7 +232,7 @@
 
 ---
 
-### 6. DanhSachVatLieuVaDanhSachMonAn — ListView Vật Liệu & Món Ăn
+### 8. DanhSachVatLieuVaDanhSachMonAn — ListView Vật Liệu & Món Ăn
 
 > 🟤 Ứng dụng ListView đa màn hình — Thực hành `ListView`, `ArrayAdapter` và điều hướng Activity.
 
@@ -285,7 +285,7 @@
 
 ---
 
-### 8. AppCongTruNhanChia — Cộng Trừ Nhân Chia
+### 6. AppCongTruNhanChia — Cộng Trừ Nhân Chia
 
 > 🟠 Ứng dụng Cộng Trừ Nhân Chia — Xử lý 4 phép tính với kiểm tra chia cho 0.
 
@@ -310,7 +310,7 @@
 
 ---
 
-### 9. BaiTH4_2 — Máy Tính Bỏ Túi
+### 5. BaiTH4_2 — Máy Tính Bỏ Túi
 
 > 🟣 Ứng dụng máy tính hoàn chỉnh — Thực hành xử lý nhiều phép tính và kiểm tra đầu vào.
 
@@ -334,7 +334,7 @@
 
 ---
 
-### 10. BaiTH4_1 — LinearLayout & Button
+### 4. BaiTH4_1 — LinearLayout & Button
 
 > 🟡 Thực hành bố cục tuyến tính — Làm quen với `LinearLayout` và tùy chỉnh giao diện `Button`.
 
@@ -354,7 +354,7 @@
 
 ---
 
-### 11. AppCong — Tính Tổng (onClick XML)
+### 3. AppCong — Tính Tổng (onClick XML)
 
 > 🔵 Ứng dụng tính tổng hai số — Thực hành xử lý sự kiện và tương tác UI.
 
@@ -375,7 +375,7 @@
 
 ---
 
-### 12. AppTinhTong — Tính Tổng Hai Số
+### 2. AppTinhTong — Tính Tổng Hai Số
 
 > 🔵 Ứng dụng tính tổng — Thực hành xử lý sự kiện bằng `android:onClick` trong XML.
 
@@ -399,7 +399,7 @@
 
 ---
 
-### 13. HelloAndroid
+### 1. HelloAndroid
 
 > 🟢 Ứng dụng đầu tiên — Làm quen với Android Studio và cấu trúc project Android.
 
