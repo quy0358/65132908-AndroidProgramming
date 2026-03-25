@@ -15,15 +15,14 @@
   - [3. AppCong — Tính Tổng (onClick XML)](#3-appcong--tính-tổng-onclick-xml)
   - [4. BaiTH4_1 — LinearLayout & Button](#4-baith4_1--linearlayout--button)
   - [5. BaiTH4_2 — Máy Tính Bỏ Túi](#5-baith4_2--máy-tính-bỏ-túi)
-  - [6. BaiTH5 — Xử Lý Sự Kiện (Máy Tính)](#6-baith5--xử-lý-sự-kiện-máy-tính)
-  - [7. AppCongTruNhanChia — Cộng Trừ Nhân Chia](#7-appcongtruhnanchia--cộng-trừ-nhân-chia)
-  - [8. DanhSachCacTinhThanh — ListView Tỉnh Thành](#8-danhsachcactinhthanh--listview-tỉnh-thành)
-  - [9. DanhSachVatLieuVaDanhSachMonAn — ListView Vật Liệu & Món Ăn](#9-danhsachvatlieuvanhdanhsachmonan--listview-vật-liệu--món-ăn)
-  - [10. AppMonAn — Custom ListView Món Ăn](#10-appmonan--custom-listview-món-ăn)
-  - [11. DSSinhVienVaMonHoc — ListView Sinh Viên & Môn Học](#11-dssinhvienvamonhoc--listview-sinh-viên--môn-học)
-  - [12. DSSanPhamVaNhaCungCap — ListView Sản Phẩm & Nhà Cung Cấp](#12-dssanphamvanhacungcap--listview-sản-phẩm--nhà-cung-cấp)
-  - [13. DanhSachCacCanhQuan — RecyclerView & CardView](#13-danhsachcaccanhquan--recyclerview--cardview)
-  - [14. VN_Express_Rss — Đọc Tin RSS VnExpress](#14-vn_express_rss--đọc-tin-rss-vnexpress)
+  - [6. AppCongTruNhanChia — Cộng Trừ Nhân Chia](#6-appcongtruhnanchia--cộng-trừ-nhân-chia)
+  - [7. DanhSachCacTinhThanh — ListView Tỉnh Thành](#7-danhsachcactinhthanh--listview-tỉnh-thành)
+  - [8. DanhSachVatLieuVaDanhSachMonAn — ListView Vật Liệu & Món Ăn](#8-danhsachvatlieuvanhdanhsachmonan--listview-vật-liệu--món-ăn)
+  - [9. AppMonAn — Custom ListView Món Ăn](#9-appmonan--custom-listview-món-ăn)
+  - [10. DSSinhVienVaMonHoc — ListView Sinh Viên & Môn Học](#10-dssinhvienvamonhoc--listview-sinh-viên--môn-học)
+  - [11. DSSanPhamVaNhaCungCap — ListView Sản Phẩm & Nhà Cung Cấp](#11-dssanphamvanhacungcap--listview-sản-phẩm--nhà-cung-cấp)
+  - [12. DanhSachCacCanhQuan — RecyclerView & CardView](#12-danhsachcaccanhquan--recyclerview--cardview)
+  - [13. VN_Express_Rss — Đọc Tin RSS VnExpress](#13-vn_express_rss--đọc-tin-rss-vnexpress)
 - [Yêu cầu hệ thống](#-yêu-cầu-hệ-thống)
 - [Hướng dẫn cài đặt và chạy](#-hướng-dẫn-cài-đặt-và-chạy)
 - [Tác giả](#-tác-giả)
@@ -59,15 +58,14 @@
 ├── AppCong/                               # Bài 3: Tính Tổng (onClick XML)
 ├── BaiTH4_1LinearLayOut_Tong2So/          # Bài 4: LinearLayout & Button
 ├── BaiTH4_2LinearLayOut_Tong2So/          # Bài 5: Máy Tính Bỏ Túi
-├── BaiTH5_XuLySuKien1/                   # Bài 6: Xử Lý Sự Kiện (Máy Tính)
-├── AppCongTruNhanChia/                    # Bài 7: Cộng Trừ Nhân Chia
-├── DanhSachCacTinhThanh/                  # Bài 8: ListView Tỉnh Thành
-├── DanhSachVatLieuVaDanhSachMonAn/        # Bài 9: ListView Vật Liệu & Món Ăn
-├── AppMonAn/                              # Bài 10: Custom ListView Món Ăn
-├── DSSinhVienVaMonHoc/                    # Bài 11: ListView Sinh Viên & Môn Học
-├── DSSanPhamVaNhaCungCap/                 # Bài 12: ListView Sản Phẩm & Nhà Cung Cấp
-├── DanhSachCacCanhQuan/                   # Bài 13: RecyclerView & CardView Cảnh Quan
-├── VN_Express_Rss/                        # Bài 14: Đọc Tin RSS VnExpress
+├── AppCongTruNhanChia/                    # Bài 6: Cộng Trừ Nhân Chia
+├── DanhSachCacTinhThanh/                  # Bài 7: ListView Tỉnh Thành
+├── DanhSachVatLieuVaDanhSachMonAn/        # Bài 8: ListView Vật Liệu & Món Ăn
+├── AppMonAn/                              # Bài 9: Custom ListView Món Ăn
+├── DSSinhVienVaMonHoc/                    # Bài 10: ListView Sinh Viên & Môn Học
+├── DSSanPhamVaNhaCungCap/                 # Bài 11: ListView Sản Phẩm & Nhà Cung Cấp
+├── DanhSachCacCanhQuan/                   # Bài 12: RecyclerView & CardView Cảnh Quan
+├── VN_Express_Rss/                        # Bài 13: Đọc Tin RSS VnExpress
 ├── Images/                                # Thư mục chứa ảnh minh hoạ
 └── README.md
 ```
@@ -188,27 +186,7 @@
 
 ---
 
-### 6. BaiTH5 — Xử Lý Sự Kiện (Máy Tính)
-
-> 🟠 Ứng dụng máy tính — Thực hành xử lý sự kiện với `setOnClickListener` và kiểu `float`.
-
-- **📄 Source Code:** *(Chưa có source code)*
-- **Package:** `tiil.edu.baith5_xulysukien1`
-- **Thư mục:** `BaiTH5_XuLySuKien1/`
-- **Mô tả:** Ứng dụng máy tính cơ bản hỗ trợ 4 phép tính: Cộng, Trừ, Nhân, Chia. Mỗi phép tính được xử lý bởi một phương thức riêng biệt.
-- **Giao diện bao gồm:**
-  - `EditText` **editTextSo1** — Ô nhập số thứ nhất
-  - `EditText` **editTextSo2** — Ô nhập số thứ hai
-  - `Button` **nutCong, nutTru, nutNhan, nutChia** — 4 nút phép tính
-  - `EditText` **editTextKQ** — Ô hiển thị kết quả
-- **Kiến thức áp dụng:**
-  - Xử lý sự kiện bằng `setOnClickListener` với anonymous class
-  - Chuyển đổi kiểu dữ liệu `String` → `float` với `Float.parseFloat()`
-  - Tách logic xử lý thành các phương thức riêng biệt
-
----
-
-### 7. AppCongTruNhanChia — Cộng Trừ Nhân Chia
+### 6. AppCongTruNhanChia — Cộng Trừ Nhân Chia
 
 > 🟠 Ứng dụng Cộng Trừ Nhân Chia — Xử lý 4 phép tính với kiểm tra chia cho 0.
 
@@ -233,7 +211,7 @@
 
 ---
 
-### 8. DanhSachCacTinhThanh — ListView Tỉnh Thành
+### 7. DanhSachCacTinhThanh — ListView Tỉnh Thành
 
 > 🟤 ListView Danh Sách Tỉnh Thành — Thực hành `ListView` và `ArrayAdapter` với dữ liệu tỉnh thành Việt Nam.
 
@@ -256,7 +234,7 @@
 
 ---
 
-### 9. DanhSachVatLieuVaDanhSachMonAn — ListView Vật Liệu & Món Ăn
+### 8. DanhSachVatLieuVaDanhSachMonAn — ListView Vật Liệu & Món Ăn
 
 > 🟤 Ứng dụng ListView đa màn hình — Thực hành `ListView`, `ArrayAdapter` và điều hướng Activity.
 
@@ -286,7 +264,7 @@
 
 ---
 
-### 10. AppMonAn — Custom ListView Món Ăn
+### 9. AppMonAn — Custom ListView Món Ăn
 
 > 🟢 Custom ListView — Thực hành Custom Adapter với hình ảnh và dữ liệu phong phú.
 
@@ -314,7 +292,7 @@
 
 ---
 
-### 11. DSSinhVienVaMonHoc — ListView Sinh Viên & Môn Học
+### 10. DSSinhVienVaMonHoc — ListView Sinh Viên & Môn Học
 
 > 🟢 Ứng dụng quản lý danh sách Sinh Viên và Môn Học.
 
@@ -343,7 +321,7 @@
 
 ---
 
-### 12. DSSanPhamVaNhaCungCap — ListView Sản Phẩm & Nhà Cung Cấp
+### 11. DSSanPhamVaNhaCungCap — ListView Sản Phẩm & Nhà Cung Cấp
 
 > 🔴 Ứng dụng quản lý Sản Phẩm & Nhà Cung Cấp với tìm kiếm, thêm mới và lưu trữ dữ liệu.
 
@@ -376,7 +354,7 @@
 
 ---
 
-### 13. DanhSachCacCanhQuan — RecyclerView & CardView
+### 12. DanhSachCacCanhQuan — RecyclerView & CardView
 
 > 🟣 RecyclerView + CardView — Hiển thị danh sách cảnh quan thế giới với hình ảnh.
 
@@ -404,7 +382,7 @@
 
 ---
 
-### 14. VN_Express_Rss — Đọc Tin RSS VnExpress
+### 13. VN_Express_Rss — Đọc Tin RSS VnExpress
 
 > 🔵 Ứng dụng đọc tin RSS — Tích hợp mạng, tìm kiếm, bookmark và làm mới dữ liệu.
 
