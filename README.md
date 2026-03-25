@@ -80,6 +80,7 @@
 
 > 🟢 Ứng dụng đầu tiên — Làm quen với Android Studio và cấu trúc project Android.
 
+- **📄 Source Code:** [MainActivity.java](HelloAndroid/app/src/main/java/tiil/edu/helloandroid/MainActivity.java)
 - **Package:** `tiil.edu.helloandroid`
 - **Mô tả:** Ứng dụng "Hello World" cơ bản, hiển thị dòng chữ **"Hello World!"** ở giữa màn hình.
 - **Tính năng:**
@@ -102,6 +103,7 @@
 
 > 🔵 Ứng dụng tính tổng — Thực hành xử lý sự kiện bằng `android:onClick` trong XML.
 
+- **📄 Source Code:** [MainActivity.java](AppTinhTong/app/src/main/java/tiil/edu/appcong/MainActivity.java)
 - **Package:** `tiil.edu.appcong`
 - **Thư mục:** `AppTinhTong/`
 - **Mô tả:** Ứng dụng cho phép nhập hai số nguyên **a** và **b**, tính tổng và hiển thị kết quả bằng phương thức `XuLyCong` được gọi trực tiếp từ XML thông qua `android:onClick`.
@@ -125,6 +127,7 @@
 
 > 🔵 Ứng dụng tính tổng hai số — Thực hành xử lý sự kiện và tương tác UI.
 
+- **📄 Source Code:** [MainActivity.java](AppCong/app/src/main/java/tiil/edu/appcong/MainActivity.java)
 - **Package:** `tiil.edu.appcong`
 - **Thư mục:** `AppCong/`
 - **Mô tả:** Ứng dụng cho phép người dùng nhập hai số **a** và **b**, sau đó tính và hiển thị tổng khi nhấn nút **"Tính Tổng"**.
@@ -145,6 +148,7 @@
 
 > 🟡 Thực hành bố cục tuyến tính — Làm quen với `LinearLayout` và tùy chỉnh giao diện `Button`.
 
+- **📄 Source Code:** [MainActivity.java](BaiTH4_1LinearLayOut_Tong2So/app/src/main/java/tiil/edu/vd1/MainActivity.java)
 - **Package:** `tiil.edu.vd1`
 - **Thư mục:** `BaiTH4_1LinearLayOut_Tong2So/`
 - **Mô tả:** Ứng dụng minh hoạ cách sử dụng `LinearLayout` theo chiều dọc (`vertical`) để sắp xếp ba nút bấm với giao diện tuỳ chỉnh.
@@ -164,6 +168,7 @@
 
 > 🟣 Ứng dụng máy tính hoàn chỉnh — Thực hành xử lý nhiều phép tính và kiểm tra đầu vào.
 
+- **📄 Source Code:** [MainActivity.java](BaiTH4_2LinearLayOut_Tong2So/app/src/main/java/tiil/edu/vd2/MainActivity.java)
 - **Package:** `tiil.edu.vd2`
 - **Thư mục:** `BaiTH4_2LinearLayOut_Tong2So/`
 - **Mô tả:** Ứng dụng máy tính bỏ túi hỗ trợ **4 phép tính** cơ bản: Cộng (+), Trừ (−), Nhân (×), Chia (÷). Có xử lý ngoại lệ cho trường hợp chia cho 0 và nhập liệu không hợp lệ.
@@ -187,6 +192,7 @@
 
 > 🟠 Ứng dụng máy tính — Thực hành xử lý sự kiện với `setOnClickListener` và kiểu `float`.
 
+- **📄 Source Code:** *(Chưa có source code)*
 - **Package:** `tiil.edu.baith5_xulysukien1`
 - **Thư mục:** `BaiTH5_XuLySuKien1/`
 - **Mô tả:** Ứng dụng máy tính cơ bản hỗ trợ 4 phép tính: Cộng, Trừ, Nhân, Chia. Mỗi phép tính được xử lý bởi một phương thức riêng biệt.
@@ -206,6 +212,7 @@
 
 > 🟠 Ứng dụng Cộng Trừ Nhân Chia — Xử lý 4 phép tính với kiểm tra chia cho 0.
 
+- **📄 Source Code:** [MainActivity.java](AppCongTruNhanChia/app/src/main/java/tiil/edu/baith5_xulysukien1/MainActivity.java)
 - **Package:** `tiil.edu.baith5_xulysukien1`
 - **Thư mục:** `AppCongTruNhanChia/`
 - **Mô tả:** Ứng dụng máy tính hỗ trợ 4 phép tính cơ bản (Cộng, Trừ, Nhân, Chia) với xử lý lỗi khi chia cho 0. Tính toán sử dụng kiểu `float`.
@@ -230,6 +237,7 @@
 
 > 🟤 ListView Danh Sách Tỉnh Thành — Thực hành `ListView` và `ArrayAdapter` với dữ liệu tỉnh thành Việt Nam.
 
+- **📄 Source Code:** [MainActivity.java](DanhSachCacTinhThanh/app/src/main/java/ntquy/ntu/baith7_listview2/MainActivity.java)
 - **Package:** `ntquy.ntu.baith7_listview2`
 - **Thư mục:** `DanhSachCacTinhThanh/`
 - **Mô tả:** Ứng dụng hiển thị danh sách 20 tỉnh thành Việt Nam bằng `ListView` với `ArrayAdapter`. Khi nhấn vào một tỉnh thành, hiển thị `Toast` thông báo tên tỉnh đã chọn.
@@ -252,6 +260,7 @@
 
 > 🟤 Ứng dụng ListView đa màn hình — Thực hành `ListView`, `ArrayAdapter` và điều hướng Activity.
 
+- **📄 Source Code:** [MainActivity.java](DanhSachVatLieuVaDanhSachMonAn/app/src/main/java/tiil/edu/baith7_listview1/MainActivity.java)
 - **Package:** `tiil.edu.baith7_listview1`
 - **Thư mục:** `DanhSachVatLieuVaDanhSachMonAn/`
 - **Mô tả:** Ứng dụng hiển thị danh sách với hai màn hình riêng biệt: **Danh sách Món Ăn** và **Danh sách Vật Liệu**. Người dùng chọn từ màn hình chính để điều hướng đến từng danh sách.
@@ -281,6 +290,7 @@
 
 > 🟢 Custom ListView — Thực hành Custom Adapter với hình ảnh và dữ liệu phong phú.
 
+- **📄 Source Code:** [MainActivity.java](AppMonAn/app/src/main/java/ntquy/ntu/appmonan/MainActivity.java)
 - **Package:** `ntquy.ntu.appmonan`
 - **Thư mục:** `AppMonAn/`
 - **Mô tả:** Ứng dụng hiển thị danh sách món ăn (Cơm tấm sườn, Cơm gà xối mỡ, ...) với Custom ListView. Mỗi item hiển thị hình ảnh, tên món, giá và mô tả. Nhấn vào item sẽ hiển thị `Toast` với tên và giá món ăn.
@@ -308,6 +318,7 @@
 
 > 🟢 Ứng dụng quản lý danh sách Sinh Viên và Môn Học.
 
+- **📄 Source Code:** [MainActivity.java](DSSinhVienVaMonHoc/app/src/main/java/tiil/edu/bailamthem1_listview/MainActivity.java)
 - **Package:** `tiil.edu.bailamthem1_listview`
 - **Thư mục:** `DSSinhVienVaMonHoc/`
 - **Mô tả:** Ứng dụng hiển thị hai danh sách: **Sinh Viên** và **Môn Học**. Mỗi danh sách được hiển thị trên một Activity riêng, điều hướng từ màn hình chính.
@@ -336,6 +347,7 @@
 
 > 🔴 Ứng dụng quản lý Sản Phẩm & Nhà Cung Cấp với tìm kiếm, thêm mới và lưu trữ dữ liệu.
 
+- **📄 Source Code:** [MainActivity.java](DSSanPhamVaNhaCungCap/app/src/main/java/tiil/edu/bailamthem2_listview/MainActivity.java)
 - **Package:** `tiil.edu.bailamthem2_listview`
 - **Thư mục:** `DSSanPhamVaNhaCungCap/`
 - **Mô tả:** Ứng dụng nâng cao với hai danh sách: **Sản Phẩm** và **Nhà Cung Cấp**. Hỗ trợ thêm mới, tìm kiếm/lọc và lưu trữ dữ liệu bền vững bằng `SharedPreferences`.
@@ -368,6 +380,7 @@
 
 > 🟣 RecyclerView + CardView — Hiển thị danh sách cảnh quan thế giới với hình ảnh.
 
+- **📄 Source Code:** [MainActivity.java](DanhSachCacCanhQuan/app/src/main/java/ntquy/ntu/danhsachcaccanhquan/MainActivity.java)
 - **Package:** `ntquy.ntu.danhsachcaccanhquan`
 - **Thư mục:** `DanhSachCacCanhQuan/`
 - **Mô tả:** Ứng dụng hiển thị danh sách 10 cảnh quan nổi tiếng thế giới (Flag Tower of Ha Noi, Eiffel Tower, Great Wall of China, Taj Mahal, ...) bằng `RecyclerView` với `CardView`. Nhấn vào item sẽ hiển thị `Toast` thông báo.
@@ -395,6 +408,7 @@
 
 > 🔵 Ứng dụng đọc tin RSS — Tích hợp mạng, tìm kiếm, bookmark và làm mới dữ liệu.
 
+- **📄 Source Code:** [MainActivity.java](VN_Express_Rss/app/src/main/java/ntquy/ntu/bailamthem3_recyclerview/MainActivity.java)
 - **Package:** `ntquy.ntu.bailamthem3_recyclerview`
 - **Thư mục:** `VN_Express_Rss/`
 - **Mô tả:** Ứng dụng đọc tin tức từ RSS feed VnExpress mục "Thế Giới" bằng `RecyclerView`. Hỗ trợ tìm kiếm, lưu tin yêu thích (bookmark) và kéo để làm mới dữ liệu.
