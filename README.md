@@ -45,7 +45,7 @@
 | **Target / Compile SDK** | 36 |
 | **UI Framework** | ConstraintLayout, LinearLayout, RecyclerView, CardView, Material Design |
 | **IDE** | Android Studio |
-| **Thư viện chính** | AndroidX AppCompat, Material Components, RecyclerView, CardView, SwipeRefreshLayout |
+| **Thư viện chính** | AndroidX AppCompat, Material Components, RecyclerView, CardView, Glide |
 
 ---
 
@@ -76,40 +76,32 @@
 
 ### 13. VN_Express_Rss — Đọc Tin RSS VnExpress
 
-> 🔵 Ứng dụng đọc tin RSS — Tích hợp mạng, tìm kiếm, bookmark và làm mới dữ liệu.
+> 🔵 Ứng dụng đọc tin RSS — Tải và hiển thị tin tức từ VnExpress qua RSS feed.
 
 - **📄 Source Code:** [MainActivity.java](VN_Express_Rss/app/src/main/java/ntquy/ntu/bailamthem3_recyclerview/MainActivity.java)
 - **Package:** `ntquy.ntu.bailamthem3_recyclerview`
 - **Thư mục:** `VN_Express_Rss/`
-- **Mô tả:** Ứng dụng đọc tin tức từ RSS feed VnExpress mục "Thế Giới" bằng `RecyclerView`. Hỗ trợ tìm kiếm, lưu tin yêu thích (bookmark) và kéo để làm mới dữ liệu.
+- **Mô tả:** Ứng dụng đọc tin tức từ RSS feed VnExpress mục "Thế Giới" bằng `RecyclerView`. Tải dữ liệu bất đồng bộ, hiển thị hình ảnh bằng Glide và mở bài viết trên trình duyệt khi nhấn vào.
 - **Các lớp chính:**
   - `RssItem` — Model dữ liệu bài báo (tiêu đề, link, mô tả, hình ảnh, ngày)
   - `RssParser` — Parser XML từ RSS feed
-  - `NewsAdapter` — RecyclerView Adapter
-  - `MainActivity` — Quản lý logic chính
+  - `NewsAdapter` — RecyclerView Adapter với Glide load ảnh
+  - `MainActivity` — Quản lý logic tải và hiển thị tin tức
 - **Tính năng nổi bật:**
-  - 🔍 **Tìm kiếm** bài viết theo tiêu đề (SearchView)
-  - ⭐ **Lưu tin yêu thích** bằng `SharedPreferences`
-  - 🔄 **Kéo để làm mới** bằng `SwipeRefreshLayout`
   - 📡 **Tải dữ liệu RSS** từ mạng (background thread)
-  - Lọc xem tất cả / chỉ tin yêu thích
+  - 🖼️ **Hiển thị hình ảnh** bài viết bằng thư viện Glide
+  - 🔗 **Mở bài viết** trên trình duyệt khi nhấn vào tin
+  - ⏳ **ProgressBar** hiển thị trạng thái đang tải
+  - 📅 **Format ngày** hiển thị ngắn gọn
 - **Kiến thức áp dụng:**
   - Kết nối mạng và parse XML (RSS)
   - `RecyclerView` với custom adapter
-  - `SharedPreferences` lưu trữ bookmark
-  - `SwipeRefreshLayout` cho pull-to-refresh
   - `ExecutorService` + `Handler` cho xử lý bất đồng bộ
-  - `SearchView` cho tìm kiếm thời gian thực
+  - Thư viện Glide để load ảnh từ URL
+  - `Intent.ACTION_VIEW` mở trình duyệt
 
 <p align="center">
   <img src="Images/VN_Express_Rss.png" alt="VnExpress RSS" width="250"/>
-  &nbsp;&nbsp;
-  <img src="Images/TimKiem_VN_Express_Rss.png" alt="Tìm kiếm" width="250"/>
-</p>
-<p align="center">
-  <img src="Images/DanhMucYeuThich_VN_Express_Rss.png" alt="Danh mục yêu thích" width="250"/>
-  &nbsp;&nbsp;
-  <img src="Images/LamMoi_VN_Express_Rss.png" alt="Làm mới" width="250"/>
 </p>
 
 ---
