@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:background="#6A1B9A"
         android:padding="16dp"
-        android:text="Recyclerview_LandScape"
+        android:text="Recyclerview LandScape"
         android:textColor="#FFFFFF"
         android:textSize="22sp"
         android:textStyle="bold" />

@@ -1,5 +1,6 @@
 package ntquy.ntu.danhsachcaccanhquan;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,7 @@ import java.util.List;
 
 public class CanhQuanAdapter extends RecyclerView.Adapter<CanhQuanAdapter.CanhQuanViewHolder> {
 
+    private static final String TAG = "CanhQuanAdapter";
     private List<CanhQuan> danhSachCanhQuan;
     private OnItemClickListener listener;
 
@@ -30,7 +32,20 @@ public class CanhQuanAdapter extends RecyclerView.Adapter<CanhQuanAdapter.CanhQu
     public CanhQuanViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_canh_quan, parent, false);
-        return new CanhQuanViewHolder(view);
+
+        CanhQuanViewHolder holder = new CanhQuanViewHolder(view);
+
+        // Gắn click listener ngay khi tạo ViewHolder
+        view.setOnClickListener(v -> {
+            int position = holder.getAdapterPosition();
+            if (position != RecyclerView.NO_POSITION && listener != null) {
+                CanhQuan canhQuan = danhSachCanhQuan.get(position);
+                Log.d(TAG, "Item clicked: " + canhQuan.getTenCanhQuan() + " at position " + position);
+                listener.onItemClick(canhQuan, position);
+            }
+        });
+
+        return holder;
     }
 
     @Override
@@ -38,12 +53,6 @@ public class CanhQuanAdapter extends RecyclerView.Adapter<CanhQuanAdapter.CanhQu
         CanhQuan canhQuan = danhSachCanhQuan.get(position);
         holder.imgCanhQuan.setImageResource(canhQuan.getHinhAnh());
         holder.tvTenCanhQuan.setText(canhQuan.getTenCanhQuan());
-
-        holder.itemView.setOnClickListener(v -> {
-            if (listener != null) {
-                listener.onItemClick(canhQuan, position);
-            }
-        });
     }
 
     @Override
@@ -62,3 +71,4 @@ public class CanhQuanAdapter extends RecyclerView.Adapter<CanhQuanAdapter.CanhQu
         }
     }
 }
+
