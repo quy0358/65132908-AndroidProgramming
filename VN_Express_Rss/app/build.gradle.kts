@@ -37,7 +37,6 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.glide)
-    implementation(libs.swiperefreshlayout)
     implementation(libs.recyclerview)
     implementation(libs.cardview)
     testImplementation(libs.junit)

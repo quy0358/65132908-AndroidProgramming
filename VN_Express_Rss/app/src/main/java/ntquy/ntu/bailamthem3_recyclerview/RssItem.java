@@ -6,7 +6,6 @@ public class RssItem {
     private String pubDate;
     private String link;
     private String imageUrl;
-    private boolean bookmarked;
 
     public RssItem() {
     }
@@ -17,7 +16,6 @@ public class RssItem {
         this.pubDate = pubDate;
         this.link = link;
         this.imageUrl = imageUrl;
-        this.bookmarked = false;
     }
 
     public String getTitle() { return title; }
@@ -34,7 +32,4 @@ public class RssItem {
 
     public String getImageUrl() { return imageUrl; }
     public void setImageUrl(String imageUrl) { this.imageUrl = imageUrl; }
-
-    public boolean isBookmarked() { return bookmarked; }
-    public void setBookmarked(boolean bookmarked) { this.bookmarked = bookmarked; }
 }

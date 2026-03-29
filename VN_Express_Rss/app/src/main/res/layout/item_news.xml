@@ -53,31 +53,14 @@
                 android:maxLines="2"
                 android:ellipsize="end" />
 
-            <!-- Ngày + Bookmark -->
-            <LinearLayout
+            <!-- Ngày -->
+            <TextView
+                android:id="@+id/tvPubDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tvPubDate"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="12sp"
-                    android:textColor="#999999" />
-
-                <ImageButton
-                    android:id="@+id/btnBookmark"
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
-                    android:background="?attr/selectableItemBackgroundBorderless"
-                    android:src="@drawable/ic_bookmark"
-                    android:contentDescription="@string/bookmark_desc"
-                    android:scaleType="centerInside" />
-            </LinearLayout>
+                android:textSize="12sp"
+                android:textColor="#999999" />
         </LinearLayout>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
