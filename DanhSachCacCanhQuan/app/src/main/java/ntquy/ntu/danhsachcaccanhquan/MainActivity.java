@@ -1,11 +1,9 @@
 package ntquy.ntu.danhsachcaccanhquan;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -18,7 +16,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = "MainActivity";
     private RecyclerView recyclerView;
     private CanhQuanAdapter adapter;
     private List<CanhQuan> danhSachCanhQuan;
@@ -52,19 +49,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Thiết lập adapter với sự kiện click
         adapter = new CanhQuanAdapter(danhSachCanhQuan, (canhQuan, position) -> {
-            Log.d(TAG, "Click detected: " + canhQuan.getTenCanhQuan());
-
-            // Hiển thị Toast
             Toast.makeText(MainActivity.this,
                     "Bạn đã chọn: " + canhQuan.getTenCanhQuan(),
-                    Toast.LENGTH_LONG).show();
-
-            // Hiển thị AlertDialog (chắc chắn hiển thị)
-            new AlertDialog.Builder(MainActivity.this)
-                    .setTitle("Thông báo")
-                    .setMessage("Bạn đã chọn: " + canhQuan.getTenCanhQuan())
-                    .setPositiveButton("OK", null)
-                    .show();
+                    Toast.LENGTH_SHORT).show();
         });
 
         recyclerView.setAdapter(adapter);
