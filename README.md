@@ -9,13 +9,81 @@
 | | Chi tiết |
 |---|---|
 | **Ngôn ngữ** | Java 11 |
-| **Build** | Gradle (Kotlin DSL) |
+| **Build** | Gradle (Kotlin DSL & Groovy) |
 | **SDK** | Min 24 · Target 36 |
-| **Thư viện** | AndroidX, Material, RecyclerView, CardView, Glide |
+| **Thư viện** | AndroidX, Material, RecyclerView, CardView, Glide, Fragment, BottomNavigationView, SQLite |
 
 ---
 
 ## 📦 Danh sách ứng dụng
+
+### 17. BottomNavigationViewmenu — Bài Thi (Fragment + BottomNav + SQLite)
+
+📄 [MainActivity.java](BottomNavigationViewmenu/app/src/main/java/thi/quy65132908/baithi/MainActivity.java)
+
+Ứng dụng bài thi tổng hợp sử dụng `BottomNavigationView` điều hướng giữa 5 Fragment: **Home**, **Câu 1** (đổi đơn vị m ↔ km), **Câu 2**, **Câu 3** (RecyclerView cảnh quan), **Câu 4** (đọc dữ liệu sách từ SQLite hiển thị trên ListView).
+
+- **Lớp chính:** `MainActivity`, `HomeFragment`, `Cau1Fragment`, `Cau2Fragment`, `Cau3Fragment`, `Cau4Fragment`, `Book`, `LandScape`, `LandScapeAdapter`
+- **Kiến thức:** BottomNavigationView, Fragment replace, SQLiteDatabase, Cursor, RecyclerView, đổi đơn vị
+
+<p align="center">
+  <img src="Images/BottomNavigationViewmenu1.png" alt="BottomNavigationViewmenu" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/BottomNavigationViewmenu2.png" alt="BottomNavigationViewmenu Menu" width="250"/>
+</p>
+
+---
+
+### 16. FragmentEx_Replace — Fragment Replace động (Button)
+
+📄 [MainActivity.java](FragmentEx_Replace/app/src/main/java/ntquy/ntu/fragmentex_replace/MainActivity.java)
+
+Minh hoạ thay thế Fragment **động** bằng `FragmentManager.replace()`. Màn hình chia 2 vùng: **Content** (trên) và **Footer** (dưới — chứa 3 nút). Nhấn từng nút để thay thế vùng Content bằng Fragment1 / Fragment2 / Fragment3.
+
+- **Lớp chính:** `MainActivity`, `ContentFragment`, `FooterFragment`, `Fragment1`, `Fragment2`, `Fragment3`
+- **Kiến thức:** FragmentContainerView, FragmentManager, `replace()` + `commit()`, giao tiếp giữa các Fragment
+
+<p align="center">
+  <img src="Images/FragmentEx_Replace.png" alt="FragmentEx_Replace" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/FragmentEx_Replace1.png" alt="Fragment1" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/FragmentEx_Replace2.png" alt="Fragment2" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/FragmentEx_Replace3.png" alt="Fragment3" width="250"/>
+</p>
+
+---
+
+### 15. FragmentExAddDynamic — Fragment Add động
+
+📄 [MainActivity.java](FragmentExAddDynamic/app/src/main/java/ntquy/ntu/fragmentexadddynamic/MainActivity.java)
+
+Minh hoạ thêm Fragment **động** bằng `FragmentManager.add()`. Hai Fragment (`ContentFragment` và `FooterFragment`) được thêm vào FrameLayout tại runtime thay vì khai báo trong XML.
+
+- **Lớp chính:** `MainActivity`, `ContentFragment`, `FooterFragment`
+- **Kiến thức:** FragmentManager, `beginTransaction().add()`, FrameLayout làm container, EdgeToEdge
+
+<p align="center">
+  <img src="Images/FragmentExAddDynamic.png" alt="FragmentExAddDynamic" width="250"/>
+</p>
+
+---
+
+### 14. FragmentEx_Statically — Fragment tĩnh (XML)
+
+📄 [MainActivity.java](FragmentEx_Statically/app/src/main/java/ntquy/ntu/fragmentex_statically/MainActivity.java)
+
+Minh hoạ khai báo Fragment **tĩnh** trực tiếp trong layout XML bằng thẻ `<FragmentContainerView>` với thuộc tính `android:name`. Hai Fragment (`ContentFragment` và `FooterFragment`) được gắn cố định trong `activity_main.xml`.
+
+- **Lớp chính:** `MainActivity`, `ContentFragment`, `FooterFragment`
+- **Kiến thức:** FragmentContainerView, khai báo Fragment tĩnh trong XML, ConstraintLayout, EdgeToEdge
+
+<p align="center">
+  <img src="Images/FragmentEx_Statically.png" alt="FragmentEx_Statically" width="250"/>
+</p>
+
+---
 
 ### 13. VN_Express_Rss — Đọc Tin RSS VnExpress
 

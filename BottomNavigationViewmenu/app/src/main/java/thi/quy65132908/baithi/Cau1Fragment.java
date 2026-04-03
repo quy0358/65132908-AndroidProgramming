@@ -51,10 +51,14 @@ public class Cau1Fragment extends Fragment {
                 //
                 if (!duLieuMet.isEmpty()) // user có nhập dữ liệu met, cần đổi sang km
                 {
+                    duLieuKiloMet = String.valueOf(Double.parseDouble(duLieuMet)/1000);
+                    editText_KiloMET.setText(duLieuKiloMet);
                     Toast.makeText(viewCau1.getContext(),"m->km", Toast.LENGTH_SHORT).show();
                 }
                 else //đổi từ km sang met
                 {
+                    duLieuMet = String.valueOf(Double.parseDouble(duLieuKiloMet)*1000);
+                    editText_MET.setText(duLieuMet);
                     Toast.makeText(viewCau1.getContext(),"km->m", Toast.LENGTH_SHORT).show();
                 }
 
