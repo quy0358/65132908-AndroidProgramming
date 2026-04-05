@@ -21,18 +21,10 @@
 
 📄 [MainActivity.java](BottomNavigationViewmenu/app/src/main/java/thi/quy65132908/baithi/MainActivity.java)
 
-Ứng dụng bài thi tổng hợp nâng cao sử dụng `BottomNavigationView` với custom vector icon điều hướng giữa 5 Fragment:
-
-| Tab | Fragment | Chức năng |
-|---|---|---|
-| 🏠 Trang chủ | `HomeFragment` | Màn hình chào mừng với fade-in animation và staggered card animation |
-| 🔄 Đổi đơn vị | `Cau1Fragment` | Đổi chiều dài (m ↔ km) **+** đổi nhiệt độ (°C ↔ °F) |
-| ⚖️ BMI | `Cau2Fragment` | Tính chỉ số BMI — phân loại Gầy / Bình thường / Thừa cân / Béo phì với màu sắc và lời khuyên |
-| 🏞️ Danh lam | `Cau3Fragment` | RecyclerView 8 danh lam thắng cảnh (mipmap + drawable vector), nhấn hiển thị AlertDialog mô tả chi tiết |
-| 📚 Sách | `Cau4Fragment` | Đọc dữ liệu sách từ SQLite, hiển thị trên RecyclerView + CardView, hỗ trợ **tìm kiếm realtime** (`TextWatcher`), nhấn hiển thị AlertDialog chi tiết |
+Ứng dụng bài thi tổng hợp nâng cao sử dụng `BottomNavigationView` với custom vector icon điều hướng giữa 5 Fragment: **Home** (animation), **Đổi đơn vị** (m ↔ km, °C ↔ °F), **BMI** (tính chỉ số BMI + phân loại + lời khuyên), **Danh lam** (RecyclerView 8 cảnh quan + AlertDialog), **Sách** (SQLite + RecyclerView + tìm kiếm realtime).
 
 - **Lớp chính:** `MainActivity`, `HomeFragment`, `Cau1Fragment`, `Cau2Fragment`, `Cau3Fragment`, `Cau4Fragment`, `Book`, `BookAdapter`, `LandScape`, `LandScapeAdapter`
-- **Kiến thức:** BottomNavigationView, Fragment replace, SQLiteDatabase, Cursor, RecyclerView + CardView, custom vector drawable, AlertDialog, TextWatcher search, BMI calculation, đổi đơn vị (chiều dài + nhiệt độ), View animation (fade-in, staggered)
+- **Kiến thức:** BottomNavigationView, Fragment, SQLiteDatabase, RecyclerView, CardView, AlertDialog, TextWatcher, BMI, vector drawable, View animation
 
 <p align="center">
   <img src="Images/BottomNavigationViewmenu1.png" alt="Home Screen" width="250"/>
