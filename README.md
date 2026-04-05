@@ -11,25 +11,39 @@
 | **Ngôn ngữ** | Java 11 |
 | **Build** | Gradle (Kotlin DSL & Groovy) |
 | **SDK** | Min 24 · Target 36 |
-| **Thư viện** | AndroidX, Material, RecyclerView, CardView, Glide, Fragment, BottomNavigationView, SQLite |
+| **Thư viện** | AndroidX, Material, RecyclerView, CardView, Glide, Fragment, BottomNavigationView, SQLite, AlertDialog, View Animation |
 
 ---
 
 ## 📦 Danh sách ứng dụng
 
-### 17. BottomNavigationViewmenu — Bài Thi (Fragment + BottomNav + SQLite)
+### 17. BottomNavigationViewmenu — Bài Thi Nâng Cao (Fragment + BottomNav + SQLite + BMI)
 
 📄 [MainActivity.java](BottomNavigationViewmenu/app/src/main/java/thi/quy65132908/baithi/MainActivity.java)
 
-Ứng dụng bài thi tổng hợp sử dụng `BottomNavigationView` điều hướng giữa 5 Fragment: **Home**, **Câu 1** (đổi đơn vị m ↔ km), **Câu 2**, **Câu 3** (RecyclerView cảnh quan), **Câu 4** (đọc dữ liệu sách từ SQLite hiển thị trên ListView).
+Ứng dụng bài thi tổng hợp nâng cao sử dụng `BottomNavigationView` với custom vector icon điều hướng giữa 5 Fragment:
 
-- **Lớp chính:** `MainActivity`, `HomeFragment`, `Cau1Fragment`, `Cau2Fragment`, `Cau3Fragment`, `Cau4Fragment`, `Book`, `LandScape`, `LandScapeAdapter`
-- **Kiến thức:** BottomNavigationView, Fragment replace, SQLiteDatabase, Cursor, RecyclerView, đổi đơn vị
+| Tab | Fragment | Chức năng |
+|---|---|---|
+| 🏠 Trang chủ | `HomeFragment` | Màn hình chào mừng với fade-in animation và staggered card animation |
+| 🔄 Đổi đơn vị | `Cau1Fragment` | Đổi chiều dài (m ↔ km) **+** đổi nhiệt độ (°C ↔ °F) |
+| ⚖️ BMI | `Cau2Fragment` | Tính chỉ số BMI — phân loại Gầy / Bình thường / Thừa cân / Béo phì với màu sắc và lời khuyên |
+| 🏞️ Danh lam | `Cau3Fragment` | RecyclerView 8 danh lam thắng cảnh (mipmap + drawable vector), nhấn hiển thị AlertDialog mô tả chi tiết |
+| 📚 Sách | `Cau4Fragment` | Đọc dữ liệu sách từ SQLite, hiển thị trên RecyclerView + CardView, hỗ trợ **tìm kiếm realtime** (`TextWatcher`), nhấn hiển thị AlertDialog chi tiết |
+
+- **Lớp chính:** `MainActivity`, `HomeFragment`, `Cau1Fragment`, `Cau2Fragment`, `Cau3Fragment`, `Cau4Fragment`, `Book`, `BookAdapter`, `LandScape`, `LandScapeAdapter`
+- **Kiến thức:** BottomNavigationView, Fragment replace, SQLiteDatabase, Cursor, RecyclerView + CardView, custom vector drawable, AlertDialog, TextWatcher search, BMI calculation, đổi đơn vị (chiều dài + nhiệt độ), View animation (fade-in, staggered)
 
 <p align="center">
-  <img src="Images/BottomNavigationViewmenu1.png" alt="BottomNavigationViewmenu" width="250"/>
+  <img src="Images/BottomNavigationViewmenu1.png" alt="Home Screen" width="250"/>
   &nbsp;&nbsp;
-  <img src="Images/BottomNavigationViewmenu2.png" alt="BottomNavigationViewmenu Menu" width="250"/>
+  <img src="Images/BottomNavigationViewmenu2.png" alt="Unit Converter" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/BottomNavigationViewmenu3.png" alt="BMI Calculator" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/BottomNavigationViewmenu4.png" alt="Landscapes" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/BottomNavigationViewmenu5.png" alt="Book Library" width="250"/>
 </p>
 
 ---
