@@ -17,11 +17,11 @@
 
 ## 📦 Danh sách ứng dụng
 
-### 17. BottomNavigationViewmenu — Bài Thi Nâng Cao (Fragment + BottomNav + SQLite + BMI)
+### 17. BottomNavigationViewmenu — Ôn tập Bài Thi (Fragment + BottomNav + SQLite + BMI)
 
 📄 [MainActivity.java](BottomNavigationViewmenu/app/src/main/java/thi/quy65132908/baithi/MainActivity.java)
 
-Ứng dụng bài thi tổng hợp nâng cao sử dụng `BottomNavigationView` với custom vector icon điều hướng giữa 5 Fragment: **Home** (animation), **Đổi đơn vị** (m ↔ km, °C ↔ °F), **BMI** (tính chỉ số BMI + phân loại + lời khuyên), **Danh lam** (RecyclerView 8 cảnh quan + AlertDialog), **Sách** (SQLite + RecyclerView + tìm kiếm realtime).
+Ôn tập bài thi tổng hợp nâng cao sử dụng `BottomNavigationView` với custom vector icon điều hướng giữa 5 Fragment: **Home** (animation), **Đổi đơn vị** (m ↔ km, °C ↔ °F), **BMI** (tính chỉ số BMI + phân loại + lời khuyên), **Danh lam** (RecyclerView 8 cảnh quan + AlertDialog), **Sách** (SQLite + RecyclerView + tìm kiếm realtime).
 
 - **Lớp chính:** `MainActivity`, `HomeFragment`, `Cau1Fragment`, `Cau2Fragment`, `Cau3Fragment`, `Cau4Fragment`, `Book`, `BookAdapter`, `LandScape`, `LandScapeAdapter`
 - **Kiến thức:** BottomNavigationView, Fragment, SQLiteDatabase, RecyclerView, CardView, AlertDialog, TextWatcher, BMI, vector drawable, View animation
