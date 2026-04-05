@@ -6,9 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -16,7 +16,6 @@ import java.util.ArrayList;
 public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.LandScapeViewHolder> {
 
     Context context;
-
     ArrayList<LandScape> datas;
 
     public LandScapeAdapter(Context _context, ArrayList<LandScape> _datas) {
@@ -35,18 +34,30 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Land
 
     @Override
     public void onBindViewHolder(@NonNull LandScapeViewHolder holder, int position) {
-        //Lấy phần tử ở vị trí position của nguồn dữ liệu
         LandScape landScape = datas.get(position);
 
-        //Đặt vào các thuộc tính hiển thị của view con
-        //Đặt tên
+        // Set name
         holder.landscapeCaption.setText(landScape.getLandscapeName());
-        //Đặt ảnh
+
+        // Set description
+        if (holder.landscapeDescription != null) {
+            String desc = landScape.getDescription();
+            if (desc != null && !desc.isEmpty()) {
+                holder.landscapeDescription.setText(desc);
+                holder.landscapeDescription.setVisibility(View.VISIBLE);
+            } else {
+                holder.landscapeDescription.setVisibility(View.GONE);
+            }
+        }
+
+        // Set image - support both mipmap and drawable
         String packageName = holder.itemView.getContext().getPackageName();
-        //Lấy id ảnh thông qua tên
         String nameFile = landScape.getLandscapeImage();
-        int imageID = holder.itemView.getResources().getIdentifier(nameFile, "mipmap", packageName);
-        holder.landscapeImage.setImageResource(imageID);
+        String resType = landScape.getResourceType();
+        int imageID = holder.itemView.getResources().getIdentifier(nameFile, resType, packageName);
+        if (imageID != 0) {
+            holder.landscapeImage.setImageResource(imageID);
+        }
     }
 
     @Override
@@ -54,8 +65,9 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Land
         return datas.size();
     }
 
-    final class LandScapeViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+    final class LandScapeViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView landscapeCaption;
+        TextView landscapeDescription;
         ImageView landscapeImage;
 
         public LandScapeViewHolder(@NonNull View itemView) {
@@ -63,16 +75,27 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Land
             itemView.setOnClickListener(this);
             landscapeImage = itemView.findViewById(R.id.ivLandScape);
             landscapeCaption = itemView.findViewById(R.id.tvCaption);
+            landscapeDescription = itemView.findViewById(R.id.tvDescription);
         }
 
         @Override
         public void onClick(View v) {
-            //Lấy vị trí item được click thông qua phương thức getAdapterPosition()
             int clickedPosition = getAdapterPosition();
-            //Lấy dữ liệu tương ứng từ danh sách (theo vị trí)
+            if (clickedPosition == RecyclerView.NO_POSITION) return;
+
             LandScape landScape = datas.get(clickedPosition);
-            //Hiện thông báo hoặc các sự kiện khác
-            Toast.makeText(v.getContext(), "Bạn đã lựa chọn: " + landScape.getLandscapeName(), Toast.LENGTH_SHORT).show();
+
+            // Show AlertDialog with details instead of just Toast
+            AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
+            builder.setTitle("🏞️ " + landScape.getLandscapeName());
+
+            String message = landScape.getDescription();
+            if (message == null || message.isEmpty()) {
+                message = "Địa danh nổi tiếng thế giới.";
+            }
+            builder.setMessage(message);
+            builder.setPositiveButton("Đóng", null);
+            builder.show();
         }
     }
 }

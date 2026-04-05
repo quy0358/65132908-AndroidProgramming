@@ -7,4 +7,31 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- New Modern Color Palette -->
+    <color name="primary_blue">#1565C0</color>
+    <color name="primary_blue_dark">#0D47A1</color>
+    <color name="primary_blue_light">#42A5F5</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_orange_dark">#F57C00</color>
+
+    <color name="bg_light">#F5F7FA</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_500">#9E9E9E</color>
+
+    <color name="status_bar_color">#0D47A1</color>
+    <color name="bottom_nav_bg">#FFFFFF</color>
+
+    <!-- BMI Colors -->
+    <color name="bmi_underweight">#42A5F5</color>
+    <color name="bmi_normal">#66BB6A</color>
+    <color name="bmi_overweight">#FFA726</color>
+    <color name="bmi_obese">#EF5350</color>
+
+    <!-- Fragment backgrounds -->
+    <color name="fragment_bg">#F5F7FA</color>
+    <color name="card_border">#E8EAF6</color>
 </resources>

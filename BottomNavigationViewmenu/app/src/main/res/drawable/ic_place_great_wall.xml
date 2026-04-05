@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Sky -->
+    <path
+        android:fillColor="#B3E5FC"
+        android:pathData="M0,0h200v200H0z"/>
+    <!-- Mountains -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M0,200 L0,120 L40,80 L80,110 L120,70 L160,100 L200,60 L200,200z"/>
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M0,200 L0,150 L50,120 L100,140 L150,110 L200,130 L200,200z"/>
+    <!-- Wall -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M0,170 L20,155 L50,140 L80,130 L100,128 L120,125 L150,130 L180,140 L200,155 L200,175 L180,160 L150,150 L120,145 L100,148 L80,150 L50,160 L20,175 L0,190z"/>
+    <!-- Wall details -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M48,135 L48,145 L52,145 L52,135z M78,125 L78,135 L82,135 L82,125z M118,120 L118,130 L122,130 L122,120z M148,125 L148,135 L152,135 L152,125z"/>
+    <!-- Tower -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M95,110 L95,130 L105,128 L105,108z"/>
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M93,108 L93,110 L107,108 L107,106z"/>
+</vector>

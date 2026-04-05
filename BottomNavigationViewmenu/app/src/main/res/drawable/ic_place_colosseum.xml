@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Sky background -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M0,0h200v200H0z"/>
+    <!-- Ground -->
+    <path
+        android:fillColor="#8BC34A"
+        android:pathData="M0,160h200v40H0z"/>
+    <!-- Colosseum body -->
+    <path
+        android:fillColor="#D4A574"
+        android:pathData="M30,160 L30,80 L40,70 L60,65 L80,62 L100,60 L120,62 L140,65 L160,70 L170,80 L170,160z"/>
+    <!-- Arches row 1 -->
+    <path
+        android:fillColor="#A0522D"
+        android:pathData="M50,90 Q55,82 60,90 M70,88 Q75,80 80,88 M90,86 Q95,78 100,86 M110,86 Q115,78 120,86 M130,88 Q135,80 140,88 M150,90 Q155,82 160,90"/>
+    <!-- Arches row 2 -->
+    <path
+        android:fillColor="#A0522D"
+        android:pathData="M45,115 Q52,105 59,115 M65,113 Q72,103 79,113 M85,112 Q92,102 99,112 M105,112 Q112,102 119,112 M125,113 Q132,103 139,113 M145,115 Q152,105 159,115"/>
+    <!-- Arches row 3 -->
+    <path
+        android:fillColor="#A0522D"
+        android:pathData="M40,145 Q48,133 56,145 M62,143 Q70,131 78,143 M84,142 Q92,130 100,142 M106,142 Q114,130 122,142 M128,143 Q136,131 144,143 M150,145 Q158,133 166,145"/>
+</vector>

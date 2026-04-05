@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Sky gradient -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M0,0h200v100H0z"/>
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M0,100h200v100H0z"/>
+    <!-- Ground -->
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M0,165h200v35H0z"/>
+    <!-- Water reflection -->
+    <path
+        android:fillColor="#B3E5FC"
+        android:pathData="M40,170h120v25H40z"/>
+    <!-- Main dome -->
+    <path
+        android:fillColor="#FAFAFA"
+        android:pathData="M70,100 Q100,40 130,100z"/>
+    <!-- Main body -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M65,100 L65,160 L135,160 L135,100z"/>
+    <!-- Door -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M90,120 Q100,110 110,120 L110,160 L90,160z"/>
+    <!-- Spire -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M98,42 L100,30 L102,42z"/>
+    <!-- Left minaret -->
+    <path
+        android:fillColor="#EEEEEE"
+        android:pathData="M45,70 L45,160 L55,160 L55,70z"/>
+    <path
+        android:fillColor="#EEEEEE"
+        android:pathData="M43,70 Q50,60 57,70z"/>
+    <!-- Right minaret -->
+    <path
+        android:fillColor="#EEEEEE"
+        android:pathData="M145,70 L145,160 L155,160 L155,70z"/>
+    <path
+        android:fillColor="#EEEEEE"
+        android:pathData="M143,70 Q150,60 157,70z"/>
+</vector>

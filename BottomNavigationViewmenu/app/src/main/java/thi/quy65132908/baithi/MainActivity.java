@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        BottomNavigationView bottomNav  = findViewById(R.id.bottomNavigationView);
+
+        BottomNavigationView bottomNav = findViewById(R.id.bottomNavigationView);
         bottomNav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -24,22 +25,29 @@ public class MainActivity extends AppCompatActivity {
                 int itemId = item.getItemId();
                 if (itemId == R.id.navigation_welcome) {
                     selectedFragment = new HomeFragment();
-                }else if (itemId == R.id.navigation_cau1) {
+                } else if (itemId == R.id.navigation_cau1) {
                     selectedFragment = new Cau1Fragment();
                 } else if (itemId == R.id.navigation_cau2) {
                     selectedFragment = new Cau2Fragment();
                 } else if (itemId == R.id.navigation_cau3) {
                     selectedFragment = new Cau3Fragment();
-                }  else if (itemId == R.id.navigation_cau4) {
+                } else if (itemId == R.id.navigation_cau4) {
                     selectedFragment = new Cau4Fragment();
                 }
-                // It will help to replace the
-                // one fragment to other.
                 if (selectedFragment != null) {
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragmentSpace, selectedFragment).commit();
+                    getSupportFragmentManager().beginTransaction()
+                            .replace(R.id.fragmentSpace, selectedFragment)
+                            .commit();
                 }
                 return true;
             }
         });
+
+        // Set default fragment on first launch
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragmentSpace, new HomeFragment())
+                    .commit();
+        }
     }
 }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Sky -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M0,0h200v140H0z"/>
+    <!-- Sun -->
+    <path
+        android:fillColor="#FDD835"
+        android:pathData="M160,30 A20,20 0 1,1 159.99,30z"/>
+    <!-- Desert -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M0,140h200v60H0z"/>
+    <!-- Big pyramid -->
+    <path
+        android:fillColor="#E6B422"
+        android:pathData="M30,160 L90,50 L150,160z"/>
+    <!-- Pyramid shadow -->
+    <path
+        android:fillColor="#C49A1A"
+        android:pathData="M90,50 L150,160 L90,160z"/>
+    <!-- Small pyramid -->
+    <path
+        android:fillColor="#D4A017"
+        android:pathData="M120,160 L160,90 L200,160z"/>
+    <!-- Small pyramid shadow -->
+    <path
+        android:fillColor="#B8860B"
+        android:pathData="M160,90 L200,160 L160,160z"/>
+    <!-- Sand dunes -->
+    <path
+        android:fillColor="#F0D060"
+        android:pathData="M0,170 Q50,155 100,170 Q150,185 200,170 L200,200 L0,200z"/>
+</vector>

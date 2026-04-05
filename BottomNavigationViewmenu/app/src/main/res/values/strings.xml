@@ -1,5 +1,55 @@
 <resources>
     <string name="app_name">BaiThi</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Chào mừng đến với BaiThi App</string>
+    <string name="welcome_subtitle">MSSV: 65132908</string>
+    <string name="welcome_desc">Ứng dụng demo các tính năng Android với BottomNavigationView</string>
+    <string name="feature_1_title">🔄 Đổi đơn vị</string>
+    <string name="feature_1_desc">Đổi m↔km và °C↔°F</string>
+    <string name="feature_2_title">⚖️ Tính BMI</string>
+    <string name="feature_2_desc">Tính chỉ số khối cơ thể</string>
+    <string name="feature_3_title">🏞️ Danh lam</string>
+    <string name="feature_3_desc">Khám phá các danh lam thắng cảnh</string>
+    <string name="feature_4_title">📚 Thư viện</string>
+    <string name="feature_4_desc">Quản lý và tìm kiếm sách</string>
+
+    <!-- Cau1 - Unit Converter -->
+    <string name="cau1_title">ĐỔI ĐƠN VỊ ĐO</string>
+    <string name="cau1_length_title">📏 Đổi chiều dài</string>
+    <string name="cau1_temp_title">🌡️ Đổi nhiệt độ</string>
+    <string name="label_met">Mét (m)</string>
+    <string name="label_km">Kilômét (km)</string>
+    <string name="label_celsius">Celsius (°C)</string>
+    <string name="label_fahrenheit">Fahrenheit (°F)</string>
+    <string name="btn_convert_length">Đổi đơn vị đo</string>
+    <string name="btn_convert_temp">Đổi nhiệt độ</string>
+
+    <!-- Cau2 - BMI Calculator -->
+    <string name="bmi_title">TÍNH CHỈ SỐ BMI</string>
+    <string name="bmi_height_hint">Nhập chiều cao (cm)</string>
+    <string name="bmi_weight_hint">Nhập cân nặng (kg)</string>
+    <string name="bmi_calculate">Tính BMI</string>
+    <string name="bmi_result_label">Kết quả</string>
+    <string name="bmi_underweight">Gầy (Thiếu cân)</string>
+    <string name="bmi_normal">Bình thường</string>
+    <string name="bmi_overweight">Thừa cân</string>
+    <string name="bmi_obese">Béo phì</string>
+
+    <!-- Cau3 - Landscapes -->
+    <string name="landscape_title">🏞️ Danh lam thắng cảnh</string>
+    <string name="landscape_detail_title">Chi tiết</string>
+
+    <!-- Cau4 - Books -->
+    <string name="book_search_hint">🔍 Tìm kiếm sách…</string>
+    <string name="book_title">📚 Thư viện sách</string>
+    <string name="book_count">Tìm thấy %d sách</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_convert">Đổi đơn vị</string>
+    <string name="nav_bmi">BMI</string>
+    <string name="nav_landscape">Danh lam</string>
+    <string name="nav_books">Sách</string>
 </resources>
