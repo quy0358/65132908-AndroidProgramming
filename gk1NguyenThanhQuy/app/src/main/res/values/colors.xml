@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary colors -->
+    <color name="colorPrimary">#1B5E20</color>
+    <color name="colorPrimaryDark">#003300</color>
+    <color name="colorPrimaryLight">#4C8C4A</color>
+    <color name="colorAccent">#FF6F00</color>
+
+    <!-- Background -->
+    <color name="colorBackground">#F1F8E9</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorCardBg">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorTextHint">#9E9E9E</color>
+
+    <!-- BMI colors -->
+    <color name="bmi_underweight">#2196F3</color>
+    <color name="bmi_normal">#4CAF50</color>
+    <color name="bmi_overweight">#FF9800</color>
+    <color name="bmi_obese">#F44336</color>
+
+    <!-- Button -->
+    <color name="colorButtonBmi">#1B5E20</color>
+    <color name="colorButtonMonAn">#E65100</color>
+    <color name="colorButtonBaiThuoc">#0D47A1</color>
+    <color name="colorButtonGioiThieu">#4A148C</color>
+    <color name="colorButtonLamThem">#B71C1C</color>
+
+    <!-- Price color -->
+    <color name="colorPrice">#C62828</color>
+</resources>

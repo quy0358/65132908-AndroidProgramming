@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/bmi_title"
+        app:titleTextColor="@color/white"
+        app:navigationIcon="@drawable/ic_arrow_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <!-- Tiêu đề -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bmi_title"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Card nhập liệu -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_rounded_card"
+                android:padding="20dp"
+                android:elevation="4dp">
+
+                <!-- Nhập chiều cao -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bmi_hint_height"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorTextSecondary"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/edtChieuCao"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="@string/bmi_hint_height"
+                    android:inputType="numberDecimal"
+                    android:textSize="16sp"
+                    android:padding="12dp"
+                    android:background="@drawable/bg_item_card"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Nhập cân nặng -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bmi_hint_weight"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorTextSecondary"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/edtCanNang"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="@string/bmi_hint_weight"
+                    android:inputType="numberDecimal"
+                    android:textSize="16sp"
+                    android:padding="12dp"
+                    android:background="@drawable/bg_item_card"
+                    android:layout_marginBottom="20dp" />
+
+                <!-- Nút tính -->
+                <Button
+                    android:id="@+id/btnTinhBmi"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:text="@string/bmi_calculate"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/bg_button_bmi" />
+
+            </LinearLayout>
+
+            <!-- Card kết quả -->
+            <LinearLayout
+                android:id="@+id/layoutKetQua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_rounded_card"
+                android:padding="20dp"
+                android:elevation="4dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bmi_label"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorTextSecondary" />
+
+                <TextView
+                    android:id="@+id/tvChiSoBmi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="48sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bmi_status_label"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorTextSecondary"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:id="@+id/tvTinhTrang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp" />
+
+                <!-- Sinh viên tự thiết kế layout -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sinh viên tự thiết kế layout"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorTextHint"
+                    android:textStyle="italic"
+                    android:layout_marginTop="16dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

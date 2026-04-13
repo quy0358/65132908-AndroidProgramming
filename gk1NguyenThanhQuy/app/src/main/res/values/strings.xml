@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">gk1.NguyenThanhQuy</string>
+
+    <!-- MainActivity -->
+    <string name="main_title">Ứng Dụng Sức Khỏe</string>
+    <string name="main_subtitle">Nguyễn Thanh Quý - 65132908</string>
+    <string name="btn_bmi">BMI</string>
+    <string name="btn_mon_an">Món ăn</string>
+    <string name="btn_bai_thuoc">Bài thuốc</string>
+    <string name="btn_gioi_thieu">Giới thiệu</string>
+    <string name="btn_lam_them">Làm thêm</string>
+
+    <!-- BMI Activity -->
+    <string name="bmi_title">Tính chỉ số cơ thể</string>
+    <string name="bmi_hint_height">Chiều cao (cm)</string>
+    <string name="bmi_hint_weight">Cân nặng (kg)</string>
+    <string name="bmi_calculate">Tính BMI</string>
+    <string name="bmi_label">Chỉ số BMI:</string>
+    <string name="bmi_status_label">Tình trạng:</string>
+    <string name="bmi_underweight">Gầy</string>
+    <string name="bmi_normal">Bình thường</string>
+    <string name="bmi_overweight">Thừa cân</string>
+    <string name="bmi_obese">Béo phì</string>
+
+    <!-- MonAn Activity -->
+    <string name="mon_an_title">Danh mục món ăn</string>
+    <string name="chi_tiet_mon_title">Chi tiết món ăn</string>
+    <string name="mon_an_nguyen_lieu">Nguyên liệu:</string>
+
+    <!-- BaiThuoc Activity -->
+    <string name="bai_thuoc_title">Các bài thuốc</string>
+    <string name="chi_tiet_bai_thuoc_title">Chi tiết bài thuốc</string>
+    <string name="bai_thuoc_thoi_gian">Thời gian:</string>
+    <string name="bai_thuoc_huong_dan">Hướng dẫn sử dụng:</string>
+
+    <!-- GioiThieu Activity -->
+    <string name="gioi_thieu_title">Giới thiệu</string>
+    <string name="gioi_thieu_ho_ten">Nguyễn Thanh Quý</string>
+    <string name="gioi_thieu_mssv">MSSV: 65132908</string>
+    <string name="gioi_thieu_tuoi">Tuổi: 21</string>
+    <string name="gioi_thieu_gioi_tinh">Giới tính: Nam</string>
+    <string name="gioi_thieu_nganh_hoc">Ngành học: Công nghệ thông tin</string>
+    <string name="gioi_thieu_lop">Lớp: 65.CNTT-2</string>
+
+    <!-- LamThem Activity -->
+    <string name="lam_them_title">Tin tức VnExpress</string>
+    <string name="loading">Đang tải...</string>
+    <string name="error_load">Lỗi tải dữ liệu</string>
+</resources>
