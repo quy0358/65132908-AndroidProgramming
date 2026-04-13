@@ -1,0 +1,32 @@
+[
+  {
+    "tenMon": "Cơm tấm sườn",
+    "gia": "25,000 đ",
+    "moTa": "Cơm tấm sườn nướng thơm ngon, ăn kèm nước mắm pha và đồ chua.",
+    "nguyenLieu": "Gạo tấm, sườn heo, nước mắm, đường, tỏi, hành phi, đồ chua (cà rốt, củ cải)."
+  },
+  {
+    "tenMon": "Phở bò",
+    "gia": "35,000 đ",
+    "moTa": "Phở bò truyền thống với nước dùng hầm xương đậm đà, thịt bò tái chín.",
+    "nguyenLieu": "Bánh phở, thịt bò, xương bò, hành tây, gừng, quế, hồi, rau thơm."
+  },
+  {
+    "tenMon": "Bún bò Huế",
+    "gia": "30,000 đ",
+    "moTa": "Bún bò Huế đặc trưng xứ Huế, nước dùng cay nồng hấp dẫn.",
+    "nguyenLieu": "Bún, thịt bò, giò heo, sả, ớt, mắm ruốc, rau sống."
+  },
+  {
+    "tenMon": "Bánh mì thịt",
+    "gia": "20,000 đ",
+    "moTa": "Bánh mì giòn rụm kẹp thịt nguội, pate, rau sống và nước sốt đặc biệt.",
+    "nguyenLieu": "Bánh mì, thịt nguội, chả lụa, pate, dưa leo, ngò, ớt."
+  },
+  {
+    "tenMon": "Cơm gà xối mỡ",
+    "gia": "30,000 đ",
+    "moTa": "Đĩa cơm gà xối mỡ giòn rụm, thơm lừng, ăn kèm nước mắm tỏi ớt.",
+    "nguyenLieu": "Cơm, đùi gà, bột chiên, nước mắm, tỏi, ớt, rau sống."
+  }
+]
