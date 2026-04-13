@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnBMI, btnMonAn, btnBaiThuoc, btnGioiThieu;
+    private Button btnBMI, btnMonAn, btnBaiThuoc, btnGioiThieu, btnTinTuc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btnMonAn = findViewById(R.id.btnMonAn);
         btnBaiThuoc = findViewById(R.id.btnBaiThuoc);
         btnGioiThieu = findViewById(R.id.btnGioiThieu);
+        btnTinTuc = findViewById(R.id.btnTinTuc);
 
         // Xử lý sự kiện click
         btnBMI.setOnClickListener(v -> {
@@ -49,6 +50,11 @@ public class MainActivity extends AppCompatActivity {
 
         btnGioiThieu.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, GioiThieuActivity.class);
+            startActivity(intent);
+        });
+
+        btnTinTuc.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, TinTucActivity.class);
             startActivity(intent);
         });
     }
