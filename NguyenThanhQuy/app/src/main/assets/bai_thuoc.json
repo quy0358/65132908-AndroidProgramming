@@ -1,0 +1,37 @@
+[
+  {
+    "ten": "Bài thuốc trị cảm cúm",
+    "moTa": "Bài thuốc dân gian giúp giảm triệu chứng cảm cúm, sổ mũi, đau đầu",
+    "thanhPhan": "Gừng tươi 10g, lá tía tô 15g, hành lá 3 cây, đường phèn 10g",
+    "cachDung": "1. Rửa sạch gừng, thái lát mỏng.\n2. Rửa sạch lá tía tô và hành lá.\n3. Cho tất cả vào nồi, thêm 500ml nước.\n4. Đun sôi nhỏ lửa trong 15 phút.\n5. Thêm đường phèn, khuấy đều.\n6. Uống nóng khi còn ấm, ngày 2-3 lần.",
+    "thoiGian": "15 phút"
+  },
+  {
+    "ten": "Bài thuốc trị ho",
+    "moTa": "Bài thuốc từ mật ong và chanh giúp giảm ho hiệu quả",
+    "thanhPhan": "Mật ong 2 thìa, chanh tươi 1 quả, gừng tươi 5g, nước ấm 200ml",
+    "cachDung": "1. Vắt lấy nước cốt chanh.\n2. Gừng thái lát mỏng.\n3. Hòa mật ong với nước ấm.\n4. Thêm nước cốt chanh và gừng.\n5. Khuấy đều, uống từ từ.\n6. Uống 2-3 lần mỗi ngày sau bữa ăn.",
+    "thoiGian": "10 phút"
+  },
+  {
+    "ten": "Bài thuốc trị đau dạ dày",
+    "moTa": "Bài thuốc giúp giảm đau dạ dày và cải thiện tiêu hóa",
+    "thanhPhan": "Nghệ tươi 20g, mật ong 1 thìa, tinh bột nghệ 5g, nước ấm 200ml",
+    "cachDung": "1. Nghệ tươi rửa sạch, giã nhuyễn hoặc xay nhỏ.\n2. Hòa tinh bột nghệ với nước ấm.\n3. Thêm mật ong khuấy đều.\n4. Uống trước bữa ăn 30 phút.\n5. Duy trì đều đặn mỗi ngày.",
+    "thoiGian": "5 phút"
+  },
+  {
+    "ten": "Bài thuốc trị mất ngủ",
+    "moTa": "Bài thuốc an thần giúp ngủ ngon và sâu giấc hơn",
+    "thanhPhan": "Hoa cúc khô 10g, táo đỏ 5 quả, hạt sen 20g, long nhãn 10g",
+    "cachDung": "1. Rửa sạch tất cả nguyên liệu.\n2. Cho hạt sen và táo đỏ vào nồi.\n3. Thêm 600ml nước, đun sôi.\n4. Hạ lửa nhỏ, nấu 30 phút.\n5. Thêm hoa cúc và long nhãn.\n6. Nấu thêm 10 phút, uống trước khi ngủ 1 tiếng.",
+    "thoiGian": "40 phút"
+  },
+  {
+    "ten": "Bài thuốc giải nhiệt",
+    "moTa": "Bài thuốc thanh nhiệt, giải độc cơ thể trong mùa hè",
+    "thanhPhan": "Râu ngô 30g, mã đề 20g, rễ cỏ tranh 15g, đường phèn 10g",
+    "cachDung": "1. Rửa sạch râu ngô, mã đề, rễ cỏ tranh.\n2. Cho tất cả vào nồi với 1 lít nước.\n3. Đun sôi, hạ lửa nhỏ nấu 20 phút.\n4. Lọc lấy nước, thêm đường phèn.\n5. Để nguội, uống thay nước trong ngày.\n6. Có thể bảo quản trong tủ lạnh.",
+    "thoiGian": "25 phút"
+  }
+]

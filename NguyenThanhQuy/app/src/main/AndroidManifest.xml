@@ -25,6 +25,7 @@
         <activity android:name=".MonAnActivity" />
         <activity android:name=".ChiTietMonActivity" />
         <activity android:name=".BaiThuocActivity" />
+        <activity android:name=".ChiTietBaiThuocActivity" />
         <activity android:name=".GioiThieuActivity" />
 
     </application>
