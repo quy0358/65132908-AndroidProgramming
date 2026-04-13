@@ -1,0 +1,37 @@
+[
+  {
+    "ten": "Phở bò",
+    "moTa": "Món phở truyền thống của Việt Nam với nước dùng thơm ngon",
+    "nguyenLieu": "Bánh phở, thịt bò, xương bò, hành tây, gừng, quế, hồi, thảo quả, rau thơm, giá đỗ",
+    "cachLam": "1. Ninh xương bò trong 6-8 tiếng để lấy nước dùng.\n2. Nướng hành tây và gừng, cho vào nồi nước dùng.\n3. Thêm quế, hồi, thảo quả.\n4. Trụng bánh phở qua nước sôi.\n5. Xếp bánh phở vào tô, thêm thịt bò thái lát.\n6. Chan nước dùng nóng lên, thêm rau thơm và giá đỗ.",
+    "thoiGian": "8 giờ"
+  },
+  {
+    "ten": "Bún chả",
+    "moTa": "Món bún chả Hà Nội nổi tiếng với chả nướng thơm lừng",
+    "nguyenLieu": "Bún, thịt heo xay, thịt ba chỉ, nước mắm, đường, tỏi, ớt, rau sống, dưa góp",
+    "cachLam": "1. Ướp thịt heo xay với gia vị, nặn thành viên.\n2. Thái thịt ba chỉ, ướp gia vị.\n3. Nướng chả trên bếp than.\n4. Pha nước chấm: nước mắm, đường, tỏi, ớt, chanh.\n5. Bày bún ra đĩa, thêm rau sống.\n6. Thưởng thức bún với chả nướng và nước chấm.",
+    "thoiGian": "1 giờ 30 phút"
+  },
+  {
+    "ten": "Gỏi cuốn",
+    "moTa": "Món cuốn tươi mát với tôm, thịt và rau sống",
+    "nguyenLieu": "Bánh tráng, tôm, thịt heo luộc, bún, rau sống, hẹ, đậu phộng, tương hoisin",
+    "cachLam": "1. Luộc tôm và thịt heo, thái lát mỏng.\n2. Chuẩn bị rau sống, rửa sạch.\n3. Nhúng bánh tráng vào nước cho mềm.\n4. Đặt rau sống, bún, thịt, tôm lên bánh tráng.\n5. Cuộn chặt tay.\n6. Pha nước chấm đậu phộng.",
+    "thoiGian": "45 phút"
+  },
+  {
+    "ten": "Cơm tấm",
+    "moTa": "Cơm tấm Sài Gòn với sườn nướng và bì chả",
+    "nguyenLieu": "Gạo tấm, sườn heo, bì heo, trứng, chả, mỡ hành, nước mắm, đồ chua",
+    "cachLam": "1. Ướp sườn heo với sả, tỏi, nước mắm, đường.\n2. Nướng sườn trên bếp than đến vàng đều.\n3. Nấu cơm tấm.\n4. Chiên trứng ốp la.\n5. Bày cơm ra đĩa, thêm sườn, trứng, bì, chả.\n6. Rưới mỡ hành và nước mắm pha.",
+    "thoiGian": "1 giờ"
+  },
+  {
+    "ten": "Bánh mì",
+    "moTa": "Bánh mì Việt Nam với nhân thịt phong phú",
+    "nguyenLieu": "Bánh mì, pate, thịt nguội, chả lụa, dưa leo, rau mùi, ớt, đồ chua",
+    "cachLam": "1. Nướng bánh mì cho giòn.\n2. Phết pate lên ruột bánh mì.\n3. Xếp thịt nguội, chả lụa vào.\n4. Thêm dưa leo, rau mùi, đồ chua.\n5. Rưới nước sốt và thêm ớt tùy khẩu vị.",
+    "thoiGian": "15 phút"
+  }
+]
