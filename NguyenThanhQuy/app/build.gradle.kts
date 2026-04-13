@@ -4,11 +4,7 @@ plugins {
 
 android {
     namespace = "thi.quy65132908.gk1.nguyenthanhquy"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "thi.quy65132908.gk1.nguyenthanhquy"
