@@ -64,7 +64,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nguyễn Thanh Quý"
+            android:text="Nguyễn Thành Quý"
             android:textSize="18sp"
             android:textColor="@color/mau_xanh_dam"
             android:layout_marginBottom="16dp"
@@ -104,7 +104,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="65PM2"
+            android:text="65CNTT-2"
             android:textSize="18sp"
             android:textColor="@color/mau_xanh_dam"
             android:layout_marginBottom="16dp"
@@ -124,7 +124,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="65132908@st.ntu.edu.vn"
+            android:text="quy.nt.65cntt@ntu.edu.vn"
             android:textSize="18sp"
             android:textColor="@color/mau_xanh_dam"
             android:layout_marginBottom="16dp"
