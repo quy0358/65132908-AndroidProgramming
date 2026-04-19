@@ -28,6 +28,9 @@
         <!-- Màn hình danh sách món ăn -->
         <activity android:name=".MonAnActivity" />
 
+        <!-- Màn hình chi tiết món ăn -->
+        <activity android:name=".ChiTietMonActivity" />
+
         <!-- Màn hình danh sách bài thuốc -->
         <activity android:name=".BaiThuocActivity" />
 

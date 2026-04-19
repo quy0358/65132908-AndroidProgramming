@@ -1,0 +1,38 @@
+[
+  {
+    "tenMon": "Phở bò",
+    "moTa": "Món phở truyền thống Việt Nam với nước dùng xương bò hầm trong nhiều giờ, bánh phở mềm và thịt bò tái chín.",
+    "nguyenLieu": "Bánh phở, thịt bò, xương bò, hành, gừng, quế, hồi, thảo quả",
+    "thoiGianNau": "3 giờ"
+  },
+  {
+    "tenMon": "Bún chả",
+    "moTa": "Đặc sản Hà Nội gồm bún trắng ăn kèm chả thịt lợn nướng trên than hoa, nước mắm chua ngọt.",
+    "nguyenLieu": "Bún, thịt lợn xay, thịt ba chỉ, nước mắm, đường, tỏi, ớt",
+    "thoiGianNau": "45 phút"
+  },
+  {
+    "tenMon": "Cơm tấm sườn bì",
+    "moTa": "Món ăn sáng phổ biến ở Sài Gòn với cơm tấm dẻo, sườn nướng thơm lừng và bì heo giòn.",
+    "nguyenLieu": "Gạo tấm, sườn heo, bì heo, mỡ hành, nước mắm",
+    "thoiGianNau": "1 giờ"
+  },
+  {
+    "tenMon": "Bánh mì thịt",
+    "moTa": "Bánh mì giòn kẹp thịt nguội, pate, rau sống, đồ chua và ớt - món ăn đường phố nổi tiếng thế giới.",
+    "nguyenLieu": "Bánh mì, thịt nguội, pate, đồ chua, rau mùi, ớt",
+    "thoiGianNau": "15 phút"
+  },
+  {
+    "tenMon": "Gỏi cuốn",
+    "moTa": "Món cuốn tươi mát với bánh tráng, tôm, thịt luộc, bún và rau sống, chấm tương đen.",
+    "nguyenLieu": "Bánh tráng, tôm, thịt heo luộc, bún, rau sống, tương đen",
+    "thoiGianNau": "30 phút"
+  },
+  {
+    "tenMon": "Canh chua cá lóc",
+    "moTa": "Canh chua đậm đà miền Tây với cá lóc tươi, me, thơm, cà chua, giá và rau ngổ.",
+    "nguyenLieu": "Cá lóc, me, thơm, cà chua, giá đỗ, rau ngổ, đậu bắp",
+    "thoiGianNau": "40 phút"
+  }
+]
