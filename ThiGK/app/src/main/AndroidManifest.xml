@@ -34,6 +34,9 @@
         <!-- Màn hình danh sách bài thuốc -->
         <activity android:name=".BaiThuocActivity" />
 
+        <!-- Màn hình chi tiết bài thuốc -->
+        <activity android:name=".ChiTietBaiActivity" />
+
         <!-- Màn hình giới thiệu -->
         <activity android:name=".GioiThieuActivity" />
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Nền tròn -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+
+    <!-- Lá thuốc -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M24,10 Q32,16 30,26 Q28,32 24,34 Q20,32 18,26 Q16,16 24,10 Z" />
+
+    <!-- Gân lá -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="1"
+        android:pathData="M24,12 L24,32" />
+
+    <!-- Viên thuốc -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M14,34 L18,30 L22,34 L18,38 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,34 L30,30 L34,34 L30,38 Z" />
+</vector>
