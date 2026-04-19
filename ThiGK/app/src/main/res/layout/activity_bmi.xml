@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainBmi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".BmiActivity">
+
+    <!-- Header: ảnh bác sĩ + tiêu đề -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/mau_nen_header"
+        android:padding="12dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_bac_si"
+            android:contentDescription="Ảnh bác sĩ" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tính chỉ số cơ thể"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/mau_chu_chinh"
+            android:gravity="center"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Nội dung chính -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Nhập chiều cao -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chiều cao (m):"
+                android:textSize="16sp"
+                android:textColor="@color/mau_chu_chinh"
+                android:layout_marginEnd="8dp" />
+
+            <EditText
+                android:id="@+id/edtChieuCao"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:hint="VD: 1.70"
+                android:padding="10dp"
+                android:background="@drawable/hinh_nen_edittext" />
+        </LinearLayout>
+
+        <!-- Nhập cân nặng -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cân nặng (kg):"
+                android:textSize="16sp"
+                android:textColor="@color/mau_chu_chinh"
+                android:layout_marginEnd="8dp" />
+
+            <EditText
+                android:id="@+id/edtCanNang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:hint="VD: 65"
+                android:padding="10dp"
+                android:background="@drawable/hinh_nen_edittext" />
+        </LinearLayout>
+
+        <!-- Nút tính BMI -->
+        <Button
+            android:id="@+id/nutTinhBmi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Tính BMI"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/hinh_nen_nut_tinh"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Hiển thị kết quả BMI -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chỉ số BMI:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/mau_chu_chinh"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/tvKetQuaBmi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@color/mau_xanh_dam"
+                android:padding="10dp"
+                android:background="@drawable/hinh_nen_edittext" />
+        </LinearLayout>
+
+        <!-- Hiển thị tình trạng -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tình trạng:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/mau_chu_chinh"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/tvTinhTrang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@color/mau_xanh_dam"
+                android:padding="10dp"
+                android:background="@drawable/hinh_nen_edittext" />
+        </LinearLayout>
+
+        <!-- Thông báo sinh viên tự thiết kế -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinh viên tự thiết kế layout"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="@color/mau_chu_phu" />
+
+    </LinearLayout>
+
+</LinearLayout>
