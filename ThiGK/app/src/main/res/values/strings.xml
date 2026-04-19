@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ThiGK</string>
+    <string name="ten_bac_si">Ann</string>
+    <string name="nut_bmi">BMI</string>
+    <string name="nut_mon_an">Món ăn</string>
+    <string name="nut_bai_thuoc">Bài thuốc</string>
+    <string name="nut_gioi_thieu">Giới thiệu</string>
+    <string name="nut_lam_them">Làm thêm</string>
+</resources>
