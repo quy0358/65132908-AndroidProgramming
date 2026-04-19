@@ -17,35 +17,6 @@
 
 ## 📦 Danh sách ứng dụng
 
-### 18. ThiGK — Bài Thi Giữa Kỳ Android (Multi-Activity + RSS + BMI)
-
-📄 [MainActivity.java](ThiGK/app/src/main/java/thi/quy65132908/gk1/thigk/MainActivity.java)
-
-Ứng dụng bài thi giữa kỳ tổng hợp gồm 5 chức năng: **Tính BMI** (phân loại sức khoẻ), **Món Ăn** (RecyclerView + chi tiết), **Bài Thuốc** (đọc RSS + hiển thị chi tiết bài thuốc), **Giới Thiệu** (thông tin cá nhân), và **Làm Thêm** (tính năng mở rộng).
-Điều hướng giữa các màn hình bằng `Intent`, sử dụng RecyclerView + Adapter cho danh sách, parse XML RSS cho bài thuốc, và tính toán chỉ số BMI với phân loại kết quả.
-
-- **Kiến thức:** Multi-Activity, Intent, RecyclerView, CardView, RSS XML Parser, BMI, EdgeToEdge, Glide
-
-<p align="center">
-  <img src="ThiGK/Images/MainActivity.png" alt="Màn hình chính" width="250"/>
-  &nbsp;&nbsp;
-  <img src="ThiGK/Images/BMIActivity.png" alt="Tính BMI" width="250"/>
-  &nbsp;&nbsp;
-  <img src="ThiGK/Images/MonAnActivity.png" alt="Danh sách Món Ăn" width="250"/>
-  &nbsp;&nbsp;
-  <img src="ThiGK/Images/ChiTietMonAnActivity.png" alt="Chi tiết Món Ăn" width="250"/>
-  &nbsp;&nbsp;
-  <img src="ThiGK/Images/BaiThuocActivity.png" alt="Danh sách Bài Thuốc" width="250"/>
-  &nbsp;&nbsp;
-  <img src="ThiGK/Images/ChiTietBaiThuocActivity.png" alt="Chi tiết Bài Thuốc" width="250"/>
-  &nbsp;&nbsp;
-  <img src="ThiGK/Images/GioiThieuActivity.png" alt="Giới Thiệu" width="250"/>
-  &nbsp;&nbsp;
-  <img src="ThiGK/Images/LamThemActivity.png" alt="Làm Thêm" width="250"/>
-</p>
-
----
-
 ### 17. BottomNavigationViewmenu — Ôn tập Bài Thi (Fragment + BottomNav + SQLite + BMI)
 
 📄 [MainActivity.java](BottomNavigationViewmenu/app/src/main/java/thi/quy65132908/baithi/MainActivity.java)
