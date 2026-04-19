@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainGioiThieu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".GioiThieuActivity">
+
+    <!-- Header: ảnh bác sĩ + tiêu đề -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/mau_nen_header"
+        android:padding="12dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_bac_si"
+            android:contentDescription="Ảnh bác sĩ" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Giới thiệu"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/mau_chu_chinh"
+            android:gravity="center"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Nội dung giới thiệu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Ảnh đại diện -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_bac_si"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="Ảnh đại diện" />
+
+        <!-- Tên sinh viên -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/mau_chu_chinh"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nguyễn Thanh Quý"
+            android:textSize="18sp"
+            android:textColor="@color/mau_xanh_dam"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:background="@drawable/hinh_nen_edittext" />
+
+        <!-- MSSV -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MSSV:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/mau_chu_chinh"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="65132908"
+            android:textSize="18sp"
+            android:textColor="@color/mau_xanh_dam"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:background="@drawable/hinh_nen_edittext" />
+
+        <!-- Lớp -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lớp:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/mau_chu_chinh"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="65PM2"
+            android:textSize="18sp"
+            android:textColor="@color/mau_xanh_dam"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:background="@drawable/hinh_nen_edittext" />
+
+        <!-- Email -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/mau_chu_chinh"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="65132908@st.ntu.edu.vn"
+            android:textSize="18sp"
+            android:textColor="@color/mau_xanh_dam"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:background="@drawable/hinh_nen_edittext" />
+
+        <!-- Môn học -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Môn học:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/mau_chu_chinh"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lập trình Android"
+            android:textSize="18sp"
+            android:textColor="@color/mau_xanh_dam"
+            android:padding="8dp"
+            android:background="@drawable/hinh_nen_edittext" />
+
+    </LinearLayout>
+
+</LinearLayout>
