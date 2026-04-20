@@ -63,7 +63,7 @@ public class CaKhucAdapter extends BaseAdapter {
         txtTenCaKhuc.setText(tenCaKhuc);
 
         // Đánh dấu bài đặc biệt (bài mang tên sinh viên)
-        if (tenCaKhuc.equals("Nguyễn Thanh Quý")) {
+        if (tenCaKhuc.equals("Nguyễn Thành Quý")) {
             txtTenCaKhuc.setTextColor(Color.parseColor("#C62828"));
             txtTenCaKhuc.setTextSize(17);
             txtTenCaKhuc.setText("⭐ " + tenCaKhuc + " (Bài đặc biệt)");

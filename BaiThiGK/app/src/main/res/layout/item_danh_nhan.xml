@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <!-- Ảnh danh nhân -->
+    <ImageView
+        android:id="@+id/imgDanhNhan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Ảnh danh nhân" />
+
+    <!-- Thông tin danh nhân -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="14dp"
+        android:paddingEnd="8dp">
+
+        <!-- Họ tên -->
+        <TextView
+            android:id="@+id/txtHoTenDanhNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Quê quán -->
+        <TextView
+            android:id="@+id/txtQueQuanDanhNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#555555" />
+
+    </LinearLayout>
+
+</LinearLayout>

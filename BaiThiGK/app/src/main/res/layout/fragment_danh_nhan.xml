@@ -3,15 +3,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:gravity="center_horizontal">
+    android:padding="16dp">
 
+    <!-- Tiêu đề -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chức năng 3: Danh nhân lịch sử"
+        android:text="🏛 Danh Nhân Lịch Sử Việt Nam"
         android:textSize="22sp"
         android:textStyle="bold"
+        android:textColor="#1B5E20"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="16dp" />
+
+    <!-- Danh sách danh nhân -->
+    <ListView
+        android:id="@+id/lvDanhSachDanhNhan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#E0E0E0"
+        android:dividerHeight="1dp" />
 
 </LinearLayout>
