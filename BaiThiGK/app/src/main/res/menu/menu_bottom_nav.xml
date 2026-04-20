@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Chức năng 1: Đổi tiền -->
+    <item
+        android:id="@+id/nav_doi_tien"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Đổi Tiền" />
+
+    <!-- Chức năng 2: Ca khúc cách mạng -->
+    <item
+        android:id="@+id/nav_ca_khuc"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Ca Khúc" />
+
+    <!-- Chức năng 3: Danh nhân lịch sử -->
+    <item
+        android:id="@+id/nav_danh_nhan"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Danh Nhân" />
+
+    <!-- Chức năng 4: Thông tin sinh viên -->
+    <item
+        android:id="@+id/nav_thong_tin"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Thông Tin" />
+
+</menu>
