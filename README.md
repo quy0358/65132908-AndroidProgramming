@@ -17,6 +17,26 @@
 
 ## 📦 Danh sách ứng dụng
 
+### 18. BaiThiGK — Bài Thi Giữa Kỳ (BottomNav + Fragment + RSS + SQLite)
+
+📄 [MainActivity.java](BaiThiGK/app/src/main/java/thigk2/NguyenThanhQuy/MainActivity.java)
+
+Ứng dụng bài thi giữa kỳ sử dụng `BottomNavigationView` điều hướng giữa 4 Fragment: **Đổi tiền** (tỉ giá ngoại tệ), **Ca khúc** (danh sách bài hát cách mạng), **Danh nhân** (RecyclerView nhân vật lịch sử), **Thông tin** (thông tin sinh viên).
+
+- **Kiến thức:** BottomNavigationView, Fragment, RecyclerView, CardView, Adapter, Material Design
+
+<p align="center">
+  <img src="BaiThiGK/Images/TiGiaActivity.png" alt="Đổi Tiền" width="250"/>
+  &nbsp;&nbsp;
+  <img src="BaiThiGK/Images/CaKhucActivity.png" alt="Ca Khúc" width="250"/>
+  &nbsp;&nbsp;
+  <img src="BaiThiGK/Images/DanhNhanActivity.png" alt="Danh Nhân" width="250"/>
+  &nbsp;&nbsp;
+  <img src="BaiThiGK/Images/ThongTinActivity.png" alt="Thông Tin" width="250"/>
+</p>
+
+---
+
 ### 17. BottomNavigationViewmenu — Ôn tập Bài Thi (Fragment + BottomNav + SQLite + BMI)
 
 📄 [MainActivity.java](BottomNavigationViewmenu/app/src/main/java/thi/quy65132908/baithi/MainActivity.java)
