@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-// Fragment chức năng 4: Thông tin sinh viên
+// Fragment chức năng 4: Hiển thị thông tin cá nhân sinh viên
 public class ThongTinFragment extends Fragment {
 
     @Nullable
@@ -17,6 +17,8 @@ public class ThongTinFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         // Nạp giao diện fragment thông tin sinh viên
-        return inflater.inflate(R.layout.fragment_thong_tin, container, false);
+        // Dữ liệu đã được hard-code trực tiếp trong layout XML
+        View giaoDien = inflater.inflate(R.layout.fragment_thong_tin, container, false);
+        return giaoDien;
     }
 }
