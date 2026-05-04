@@ -1,10 +1,9 @@
 package thi.quy65132908.gk1.myapplication;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -29,18 +28,19 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     // Khai báo các view
-    private TextInputEditText edtMaSV, edtHoTen, edtDiem;
+    private TextInputEditText edtTenChiTieu, edtSoTien;
+    private Spinner spinnerDanhMuc;
     private MaterialButton btnThem, btnSua, btnXoa;
-    private ListView lvSinhVien;
-    private TextView tvTrangThai;
+    private ListView lvChiTieu;
+    private TextView tvTrangThai, tvTongChiTieu;
 
     // Firebase
     private DatabaseReference databaseRef;
 
     // Dữ liệu
-    private ArrayList<SinhVien> dsSinhVien;
-    private ArrayAdapter<SinhVien> adapter;
-    private String selectedKey = ""; // Key của sinh viên được chọn
+    private ArrayList<ChiTieu> dsChiTieu;
+    private ArrayAdapter<ChiTieu> adapter;
+    private String selectedKey = ""; // Key của chi tiêu được chọn
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,22 +63,31 @@ public class MainActivity extends AppCompatActivity {
         docDuLieu();
 
         // Xử lý sự kiện nút Thêm
-        btnThem.setOnClickListener(v -> themSinhVien());
+        btnThem.setOnClickListener(v -> themChiTieu());
 
         // Xử lý sự kiện nút Sửa
-        btnSua.setOnClickListener(v -> suaSinhVien());
+        btnSua.setOnClickListener(v -> suaChiTieu());
 
         // Xử lý sự kiện nút Xóa
-        btnXoa.setOnClickListener(v -> xoaSinhVien());
+        btnXoa.setOnClickListener(v -> xoaChiTieu());
 
-        // Khi chọn 1 sinh viên trong danh sách -> hiển thị lên form
-        lvSinhVien.setOnItemClickListener((parent, view, position, id) -> {
-            SinhVien sv = dsSinhVien.get(position);
-            edtMaSV.setText(sv.getMaSV());
-            edtHoTen.setText(sv.getHoTen());
-            edtDiem.setText(String.valueOf(sv.getDiemTB()));
-            selectedKey = sv.getMaSV(); // Dùng mã SV làm key
-            Toast.makeText(this, "Đã chọn: " + sv.getHoTen(), Toast.LENGTH_SHORT).show();
+        // Khi chọn 1 chi tiêu trong danh sách -> hiển thị lên form
+        lvChiTieu.setOnItemClickListener((parent, view, position, id) -> {
+            ChiTieu ct = dsChiTieu.get(position);
+            edtTenChiTieu.setText(ct.getTenChiTieu());
+            edtSoTien.setText(String.valueOf(ct.getSoTien()));
+            selectedKey = ct.getId();
+
+            // Chọn đúng danh mục trong Spinner
+            ArrayAdapter<CharSequence> spinnerAdapter = (ArrayAdapter<CharSequence>) spinnerDanhMuc.getAdapter();
+            for (int i = 0; i < spinnerAdapter.getCount(); i++) {
+                if (spinnerAdapter.getItem(i).toString().equals(ct.getDanhMuc())) {
+                    spinnerDanhMuc.setSelection(i);
+                    break;
+                }
+            }
+
+            Toast.makeText(this, "Đã chọn: " + ct.getTenChiTieu(), Toast.LENGTH_SHORT).show();
         });
     }
 
@@ -86,19 +95,20 @@ public class MainActivity extends AppCompatActivity {
      * Ánh xạ các view từ layout
      */
     private void anhXaView() {
-        edtMaSV = findViewById(R.id.edtMaSV);
-        edtHoTen = findViewById(R.id.edtHoTen);
-        edtDiem = findViewById(R.id.edtDiem);
+        edtTenChiTieu = findViewById(R.id.edtTenChiTieu);
+        edtSoTien = findViewById(R.id.edtSoTien);
+        spinnerDanhMuc = findViewById(R.id.spinnerDanhMuc);
         btnThem = findViewById(R.id.btnThem);
         btnSua = findViewById(R.id.btnSua);
         btnXoa = findViewById(R.id.btnXoa);
-        lvSinhVien = findViewById(R.id.lvSinhVien);
+        lvChiTieu = findViewById(R.id.lvChiTieu);
         tvTrangThai = findViewById(R.id.tvTrangThai);
+        tvTongChiTieu = findViewById(R.id.tvTongChiTieu);
 
         // Khởi tạo danh sách
-        dsSinhVien = new ArrayList<>();
-        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dsSinhVien);
-        lvSinhVien.setAdapter(adapter);
+        dsChiTieu = new ArrayList<>();
+        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dsChiTieu);
+        lvChiTieu.setAdapter(adapter);
     }
 
     /**
@@ -108,35 +118,37 @@ public class MainActivity extends AppCompatActivity {
         // Lấy instance của Firebase Database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
 
-        // Tạo reference đến node "SinhVien" trên database
-        databaseRef = database.getReference("SinhVien");
+        // Tạo reference đến node "ChiTieu" trên database
+        databaseRef = database.getReference("ChiTieu");
 
-        tvTrangThai.setText("✅ Đã kết nối Firebase thành công!");
+        tvTrangThai.setText("✅ Đã kết nối Firebase!");
         tvTrangThai.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
     }
 
     /**
      * Đọc dữ liệu từ Firebase (lắng nghe realtime)
-     * Mỗi khi dữ liệu thay đổi trên Firebase, danh sách sẽ tự động cập nhật
      */
     private void docDuLieu() {
         databaseRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                // Xóa danh sách cũ
-                dsSinhVien.clear();
+                dsChiTieu.clear();
 
-                // Duyệt qua từng child trong node "SinhVien"
+                double tongTien = 0;
+
                 for (DataSnapshot data : snapshot.getChildren()) {
-                    SinhVien sv = data.getValue(SinhVien.class);
-                    if (sv != null) {
-                        dsSinhVien.add(sv);
+                    ChiTieu ct = data.getValue(ChiTieu.class);
+                    if (ct != null) {
+                        dsChiTieu.add(ct);
+                        tongTien += ct.getSoTien();
                     }
                 }
 
-                // Cập nhật ListView
                 adapter.notifyDataSetChanged();
-                tvTrangThai.setText("✅ Đã tải " + dsSinhVien.size() + " sinh viên từ Firebase");
+
+                // Cập nhật tổng chi tiêu
+                tvTongChiTieu.setText(String.format("%,.0f đ", tongTien));
+                tvTrangThai.setText("✅ Có " + dsChiTieu.size() + " khoản chi tiêu");
             }
 
             @Override
@@ -151,26 +163,26 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * THÊM sinh viên mới vào Firebase
+     * THÊM chi tiêu mới vào Firebase
      */
-    private void themSinhVien() {
-        String maSV = edtMaSV.getText().toString().trim();
-        String hoTen = edtHoTen.getText().toString().trim();
-        String diemStr = edtDiem.getText().toString().trim();
+    private void themChiTieu() {
+        String tenChiTieu = edtTenChiTieu.getText().toString().trim();
+        String soTienStr = edtSoTien.getText().toString().trim();
+        String danhMuc = spinnerDanhMuc.getSelectedItem().toString();
 
-        // Kiểm tra dữ liệu
-        if (maSV.isEmpty() || hoTen.isEmpty() || diemStr.isEmpty()) {
-            Toast.makeText(this, "Vui lòng nhập đầy đủ thông tin!", Toast.LENGTH_SHORT).show();
+        if (tenChiTieu.isEmpty() || soTienStr.isEmpty()) {
+            Toast.makeText(this, "Vui lòng nhập tên và số tiền!", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        double diem = Double.parseDouble(diemStr);
+        double soTien = Double.parseDouble(soTienStr);
 
-        // Tạo đối tượng SinhVien
-        SinhVien sv = new SinhVien(maSV, hoTen, diem);
+        // Tạo key tự động từ Firebase
+        String id = databaseRef.push().getKey();
 
-        // Đẩy dữ liệu lên Firebase (dùng maSV làm key)
-        databaseRef.child(maSV).setValue(sv)
+        ChiTieu ct = new ChiTieu(id, tenChiTieu, soTien, danhMuc);
+
+        databaseRef.child(id).setValue(ct)
                 .addOnSuccessListener(unused -> {
                     Toast.makeText(this, "✅ Thêm thành công!", Toast.LENGTH_SHORT).show();
                     xoaForm();
@@ -181,28 +193,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * SỬA thông tin sinh viên trên Firebase
+     * SỬA chi tiêu trên Firebase
      */
-    private void suaSinhVien() {
+    private void suaChiTieu() {
         if (selectedKey.isEmpty()) {
-            Toast.makeText(this, "Vui lòng chọn sinh viên cần sửa!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Vui lòng chọn khoản chi tiêu cần sửa!", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        String maSV = edtMaSV.getText().toString().trim();
-        String hoTen = edtHoTen.getText().toString().trim();
-        String diemStr = edtDiem.getText().toString().trim();
+        String tenChiTieu = edtTenChiTieu.getText().toString().trim();
+        String soTienStr = edtSoTien.getText().toString().trim();
+        String danhMuc = spinnerDanhMuc.getSelectedItem().toString();
 
-        if (maSV.isEmpty() || hoTen.isEmpty() || diemStr.isEmpty()) {
-            Toast.makeText(this, "Vui lòng nhập đầy đủ thông tin!", Toast.LENGTH_SHORT).show();
+        if (tenChiTieu.isEmpty() || soTienStr.isEmpty()) {
+            Toast.makeText(this, "Vui lòng nhập tên và số tiền!", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        double diem = Double.parseDouble(diemStr);
-        SinhVien sv = new SinhVien(maSV, hoTen, diem);
+        double soTien = Double.parseDouble(soTienStr);
+        ChiTieu ct = new ChiTieu(selectedKey, tenChiTieu, soTien, danhMuc);
 
-        // Cập nhật dữ liệu trên Firebase (theo key đã chọn)
-        databaseRef.child(selectedKey).setValue(sv)
+        databaseRef.child(selectedKey).setValue(ct)
                 .addOnSuccessListener(unused -> {
                     Toast.makeText(this, "✅ Sửa thành công!", Toast.LENGTH_SHORT).show();
                     xoaForm();
@@ -213,15 +224,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * XÓA sinh viên khỏi Firebase
+     * XÓA chi tiêu khỏi Firebase
      */
-    private void xoaSinhVien() {
+    private void xoaChiTieu() {
         if (selectedKey.isEmpty()) {
-            Toast.makeText(this, "Vui lòng chọn sinh viên cần xóa!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Vui lòng chọn khoản chi tiêu cần xóa!", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        // Xóa node con theo key
         databaseRef.child(selectedKey).removeValue()
                 .addOnSuccessListener(unused -> {
                     Toast.makeText(this, "✅ Xóa thành công!", Toast.LENGTH_SHORT).show();
@@ -236,9 +246,9 @@ public class MainActivity extends AppCompatActivity {
      * Xóa dữ liệu trên form nhập liệu
      */
     private void xoaForm() {
-        edtMaSV.setText("");
-        edtHoTen.setText("");
-        edtDiem.setText("");
+        edtTenChiTieu.setText("");
+        edtSoTien.setText("");
+        spinnerDanhMuc.setSelection(0);
         selectedKey = "";
     }
 }

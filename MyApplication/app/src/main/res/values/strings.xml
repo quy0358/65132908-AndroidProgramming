@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Quản Lý Chi Tiêu</string>
+
+    <!-- Danh mục chi tiêu -->
+    <string-array name="danh_muc_array">
+        <item>Ăn uống</item>
+        <item>Di chuyển</item>
+        <item>Mua sắm</item>
+        <item>Giải trí</item>
+        <item>Hóa đơn</item>
+        <item>Khác</item>
+    </string-array>
 </resources>
