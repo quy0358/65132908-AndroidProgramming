@@ -1,5 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.BaiThiGK" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Base application theme for night mode - same as day theme (force light) -->
+    <style name="Base.Theme.BaiThiGK" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorPrimaryVariant">#0D47A1</item>
+        <item name="colorOnPrimary">@android:color/white</item>
     </style>
+
+    <style name="Theme.BaiThiGK" parent="Base.Theme.BaiThiGK" />
 </resources>
