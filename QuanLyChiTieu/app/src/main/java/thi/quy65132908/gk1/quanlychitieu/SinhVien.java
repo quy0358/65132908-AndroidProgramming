@@ -1,4 +1,4 @@
-package thi.quy65132908.gk1.myapplication;
+package thi.quy65132908.gk1.quanlychitieu;
 
 /**
  * Model class đại diện cho một Sinh viên trong Firebase Realtime Database.

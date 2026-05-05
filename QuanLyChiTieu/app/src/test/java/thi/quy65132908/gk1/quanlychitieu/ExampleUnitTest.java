@@ -1,4 +1,4 @@
-package thi.quy65132908.gk1.myapplication;
+package thi.quy65132908.gk1.quanlychitieu;
 
 import org.junit.Test;
 
