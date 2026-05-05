@@ -26,6 +26,12 @@
 - **Lớp chính:** `MainActivity`, `LoginActivity`, `RegisterActivity`, `HomeActivity`
 - **Kiến thức:** Firebase Authentication (`signInWithEmailAndPassword`, `createUserWithEmailAndPassword`), Firebase Realtime Database, UserProfileChangeRequest, ProgressBar, validate form, Intent điều hướng đa Activity
 
+<p align="center">
+  <img src="Images/Login_1.png" alt="Login Screen" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/Login_2.png" alt="Register Screen" width="250"/>
+</p>
+
 ---
 
 ### 20. TodoList — Danh Sách Công Việc (Firebase Realtime Database + RecyclerView)
@@ -37,6 +43,16 @@
 - **Lớp chính:** `Task`, `TaskAdapter` (RecyclerView.Adapter), `MainActivity`
 - **Kiến thức:** Firebase Realtime Database (CRUD), RecyclerView + ViewHolder, interface callback (`OnTaskActionListener`), AlertDialog, Paint.STRIKE_THRU_TEXT_FLAG, EdgeToEdge
 
+<p align="center">
+  <img src="Images/ToDoList_1.png" alt="ToDoList Main" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/ToDoList_2.png" alt="ToDoList Add" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/ToDoList_3.png" alt="ToDoList Edit" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/ToDoList_4.png" alt="ToDoList Delete" width="250"/>
+</p>
+
 ---
 
 ### 19. QuanLyChiTieu — Quản Lý Chi Tiêu (Firebase Realtime Database + Spinner)
@@ -47,6 +63,16 @@
 
 - **Lớp chính:** `ChiTieu`, `SinhVien`, `MainActivity`
 - **Kiến thức:** Firebase Realtime Database (CRUD + ValueEventListener), Spinner, ListView + ArrayAdapter, MaterialButton, TextInputEditText, data model với emoji icon
+
+<p align="center">
+  <img src="Images/QuanLyChiTieu_1.png" alt="QuanLyChiTieu Main" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/QuanLyChiTieu_2.png" alt="QuanLyChiTieu Add" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/QuanLyChiTieu_3.png" alt="QuanLyChiTieu Edit" width="250"/>
+  &nbsp;&nbsp;
+  <img src="Images/QuanLyChiTieu_4.png" alt="QuanLyChiTieu Delete" width="250"/>
+</p>
 
 ---
 
