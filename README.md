@@ -11,11 +11,44 @@
 | **Ngôn ngữ** | Java 11 |
 | **Build** | Gradle (Kotlin DSL & Groovy) |
 | **SDK** | Min 24 · Target 36 |
-| **Thư viện** | AndroidX, Material, RecyclerView, CardView, Glide, Fragment, BottomNavigationView, SQLite, AlertDialog, View Animation |
+| **Thư viện** | AndroidX, Material, RecyclerView, CardView, Glide, Fragment, BottomNavigationView, SQLite, AlertDialog, View Animation, Firebase Auth, Firebase Realtime Database |
 
 ---
 
 ## 📦 Danh sách ứng dụng
+
+### 21. Login — Đăng Nhập / Đăng Ký (Firebase Authentication)
+
+📄 [LoginActivity.java](login/app/src/main/java/ntu/quy65132908/login/LoginActivity.java)
+
+Ứng dụng xác thực người dùng với **Firebase Authentication**. Hỗ trợ đăng ký tài khoản mới (email, mật khẩu, họ tên), đăng nhập bằng email/password, tự động chuyển hướng nếu đã đăng nhập, hiển thị thông tin user và đăng xuất. Thông tin user được lưu thêm vào **Firebase Realtime Database**.
+
+- **Lớp chính:** `MainActivity`, `LoginActivity`, `RegisterActivity`, `HomeActivity`
+- **Kiến thức:** Firebase Authentication (`signInWithEmailAndPassword`, `createUserWithEmailAndPassword`), Firebase Realtime Database, UserProfileChangeRequest, ProgressBar, validate form, Intent điều hướng đa Activity
+
+---
+
+### 20. TodoList — Danh Sách Công Việc (Firebase Realtime Database + RecyclerView)
+
+📄 [MainActivity.java](TodoList/app/src/main/java/thi/quy65132908/gk1/todolist/MainActivity.java)
+
+Ứng dụng quản lý công việc (To-Do List) tích hợp **Firebase Realtime Database**. Hỗ trợ đầy đủ CRUD: thêm task mới, đánh dấu hoàn thành (checkbox + gạch ngang), sửa tiêu đề qua AlertDialog, xóa task với xác nhận. Dữ liệu đồng bộ realtime từ Firebase.
+
+- **Lớp chính:** `Task`, `TaskAdapter` (RecyclerView.Adapter), `MainActivity`
+- **Kiến thức:** Firebase Realtime Database (CRUD), RecyclerView + ViewHolder, interface callback (`OnTaskActionListener`), AlertDialog, Paint.STRIKE_THRU_TEXT_FLAG, EdgeToEdge
+
+---
+
+### 19. QuanLyChiTieu — Quản Lý Chi Tiêu (Firebase Realtime Database + Spinner)
+
+📄 [MainActivity.java](QuanLyChiTieu/app/src/main/java/thi/quy65132908/gk1/quanlychitieu/MainActivity.java)
+
+Ứng dụng quản lý chi tiêu cá nhân tích hợp **Firebase Realtime Database**. Hỗ trợ CRUD khoản chi tiêu (tên, số tiền, danh mục), hiển thị danh sách bằng `ListView`, phân loại theo danh mục (Ăn uống 🍔, Di chuyển 🚗, Mua sắm 🛒, Giải trí 🎮, Hóa đơn 📄), tính tổng chi tiêu realtime.
+
+- **Lớp chính:** `ChiTieu`, `SinhVien`, `MainActivity`
+- **Kiến thức:** Firebase Realtime Database (CRUD + ValueEventListener), Spinner, ListView + ArrayAdapter, MaterialButton, TextInputEditText, data model với emoji icon
+
+---
 
 ### 18. BaiThiGK — Bài Thi Giữa Kỳ (BottomNav + Fragment + RSS + SQLite)
 
