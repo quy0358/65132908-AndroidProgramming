@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="hint_enter_task">Nhập công việc mới...</string>
+    <string name="add_task">Thêm công việc</string>
+    <string name="edit_task">Sửa công việc</string>
+    <string name="delete_task">Xóa công việc</string>
+    <string name="no_tasks">Chưa có công việc nào</string>
+    <string name="dialog_edit_title">Sửa công việc</string>
+    <string name="dialog_delete_title">Xác nhận xóa</string>
+    <string name="dialog_delete_message">Bạn có chắc muốn xóa công việc này?</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="toast_added">Đã thêm công việc</string>
+    <string name="toast_updated">Đã cập nhật công việc</string>
+    <string name="toast_deleted">Đã xóa công việc</string>
+    <string name="toast_empty">Vui lòng nhập tên công việc</string>
+    <string name="task_count">%d công việc</string>
+</resources>
