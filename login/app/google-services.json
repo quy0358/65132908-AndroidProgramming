@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "970321076041",
+    "project_id": "login-c9d5c",
+    "storage_bucket": "login-c9d5c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970321076041:android:bb6503c6ef7e4e6ea4c498",
+        "android_client_info": {
+          "package_name": "ntu.quy65132908.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1I3IGVJnxPDaGvs9fl5FnWQIMNp3T0UU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
